@@ -1,0 +1,198 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_SélectionPays
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_SélectionPays
+ identifier : 0x2b43621a11d64f7e
+ internal_properties : CAAAAAgAAADDKjm6i3Rh5nvWEadspA/4k5PFdhIkNJ9KMpXLkfWQ7YTpWflyXwGoOfuu8N2acyMa8SdoqTnP5NSElkBQlf3zKB22KZt3rn1WvqmZLgOsX5iBGFuQ142VUW0w3OTcRjWAQMFpIoBAqr2EVs52nzZQWhuc3fWFVy6U3txgvKfyj3WPXL37090Mz9VBDxrjMSf5u+BoTT8L8Nyze89rXMlsJx8A+0hVrpEHBHs/r2rBPLgS8hJ/8r94mbO8GEw4bBC/hMSuyrQXHryUSPJSZ5nGDpzq95rOg1utKjd0sc/hMc7E3gI6QIAG6w1DNpBDHVXZASutOYf81C96HNVZ/5QbjDTf7mxxQpWImZYLA1cG/zshDWIjYftxgE/FdzVDrA8zexlVys04mfHstMTpnvbULdYb5rRvwIQ0HVqkZGt6rBq+lvkWJ5BIA4WmEcQ73DLzENHrBQJ5VeHAmWuxAl9WyKwciFoBpvosuIXBoIJ53LrDpBXI7goKWib7NXLZJFHwXIRXvbK3K+9mWrD35F6+u5ceytbLqoEvaCJ3EJux56atDi2j9xygxblf9XDw7kpWuW2DUcx4KETQmT74MtElij3Wg+DI+vrUEQ2J0oNIym6DFUki5lGNT6jI/M64y6rg7O6mdT6csSaytAcqwRFUEnEved+yzJ3PTEZqSvE3uPfk+4ci8nfRQwHn8YNeV0xhYtUWXdkG9cayRwzrFY/5NvDrmZhzivwRh3/hqPAB8Tbz3NcjSDRNQ8hSUMuNrZ9JX/8tS+SEb+F4+PwQdi8wezGUBKfV9fPplQxYMrmbbIwVayaOJwaZlgdcN36ZnZL9fL2lwEvae48USVSYjugCgv68mm7tB9IsFef6K9Y9vZNAkMDYgSUB3MnlNrt+YrEP4vX77+ew29I179NOdQ==
+ properties :
+  width : 332
+  height : 98
+  widthClient : 326
+  heightClient : 92
+ controls :
+  -
+    name : COMBO_PAYS
+    identifier : 0x2b43621a11d84f7e
+    internal_properties : CAAAAAgAAACf/wYVnkI97qVBQvdrgnn6lpH/F4raMkM+jchra/L0Xt3EWQbikKeWhTb8ynxdntRYwBodoF7XDUHit/hP8OIWvTSsFpPjJc2VBCXyCgwrq4cEKZQXKRF+s1uo6HMsPM1qN8/d27R8+qHNn8TMbHwnSfL1MKMETQUsSr6b3mpcGSFnb5zrz2jQyg4F3yR5ye+cO1Zh444f+TT4MaP7NHr0Eq+wCs5pj0QVSQNQqXpOzkRJ64FN2zaofKZaWIKY2YNUmrr6yOVdu8DzJnIO+Cs1sD4/kQL0cFaPx39rPajesm66BbuoQsLSwzfPLKWwNiSmvEbfin8gRIAf+4rrzFuHpltkwLRsRzBE8cgGEMUgZnq3zjuiKlnUtTbRZAYn6Wd2hFunbMrUD1O0t+CY4gM6jGTSNAtsjuVKO/9cUPeJeMRH98nCyqwjxRNNadB7v4QvNKSYigP8G45mx1ixs5IQ4Rd0YIO0P1qXZHp5uQBm4Oaf6oRV0oqRPk8h1g36g5Iqf5SoYUTRwnchveXZStB98RzpxqsVQaFCSKPNO/OUbC0Ubn+mTPux0Aef7fTNPAvmtYgHw2l8b9ibuaoBMT1i5PjtUL1/m85aWV933gl93s4UOLiZsLHCzZOWOqiWMEVd9slKZiHxgLxynNjEjnFkkWuLecemn+pmOduQO8ZMFrM6xFplqznIXmBEHtKLiiqRbO8z8Ld7h7QrMcDdePONgb3apuxvJd7b+ZWVPINut+BSIMFbaJuNmqTrjDoi1JKF+r+6VpyOMZI5VmLnsPHawaYFcJ8vCbGH1BbUoVKNXXVu1mm0bZWOXSNjiYbeAx//if6eRHPI1eWClYHT9qhs0YmBkeI7P4lAggL5kNgn4NXeQjV506j4Z17vwITw1Eujx9vlQ/fPTlhRGJ4K2Zk1N8Qeh7KgsQXc2nt3Q5SIGRfNnLM8bKyAJg6AWfiTYvyPqe7ki0qqPeKT17HMej7b4STvu6HxwUtgWpV0LOugdWr3s7FBctTNuabCWgZ/YSfhFRftRso43iQnuM6fn5Nhw3txeouB1dfK8K++5yZYqX95b//CyNa+pEtMYAlAFNjofgp2vfs+BglaLg+qCQqNlKK09CfKWfeSQZtcgB2RQE5bZNt1Uyp42NoQaJkTYvdIY4Rx5+Jg5VxebE9rrqC78LjpLupU+uUTZlrXi0jgPR1u4Duor+oxcrDhtvamJ1g63D/lqq77tO3tZoKas6SraDKGwOf0xfb+I/tad9NqD2M6Pbns7TgWmRYkYKdpBr8f3vH00lhaEPKQ065NMmw+BL+wI4Bc6tsqNGotHdncg4mLAco0k4QYM81E218FpCuYKj45mp9cUYQkRg51zA5XPJGjVaH9eemddprUi7gF1H+Y07H2S+MncvZEYUnA0dUWu9VKP0qXNEGUSpd+8qhyZgmvqjs5Ree3OnlJ079qeZ2KjSeqJHkd/6VsEg7qwSArSnZFdP0znPbKGjvpY3livA1rjzgVjRHDMnlkmtQN/957ohKOZR+9R00rQgj9Ga5YdV3yUamBG4qgP4a2cieCPzhC9c791yjDRPq/v1KBSpHDghe+FQAeOesmJRj9n+5KkHmKJIyYoMNhbQhBkLd2OYumxcjpgh5R1MJ36QkkRgtuGb3ey1sm51tayRA/RbV6RlVc0MKk0ZNTtsH2XCc1129eM0AqZcc3izGf/Pmil0DCsiUk2oq4UzYZgassjrcEEKYt28dNF6xfYyEU22RWm9M9iU8Yd923
+    properties :
+     x : 6
+     y : 58
+     width : 265
+     height : 24
+    dropdown :
+     internal_properties : CAAAAAgAAACKSm/4fYZc0b6C8fKXZD8gevmDYg6tVRtHt8clYUHZN42VYaRloZ8GxzgDlSfBlmlDKNPGvSXXw13PGzxHMCieoL3LFQ023hGgROTdgL03aJJFlTEQlLswLh9tUX9sfEN5b6OCu5FUl2Awc/dC0c8CFU0wK/FhKGIWxMyPV8oTjcvPy9EerK7/u3zzHNZ6DQDg45wE8p2DTsaQZvMWvXokAQqgnXCHydxROBlzM90vK+v3Wjm/T2I/4UrY/NjH1WFBJWRY13zD1ysXZwOR+dR7/LgldyxuU5lObyTFSHziSDthrdyaxuLaHZBS6Y30P7v418eOjtV2NfTld+Sy5H4rk+huAhqCEK6dmo3Sl0gOqSdGfnolznwOvUFy9vyOvuXIIdlUogIaQA06FdFUU+cyUrn2vLTxBsMdDCn32g1nmrzn3vkXyrF42XNL5t1loc5NQPYqwmT4fCBOQcIO2cYvBJ+ISZ3yHu2i/9z2UTA8vdaQUlzNcW05xrr24i1Tufjwi1LJW4aWOeLtmkA2G/n2CDkme+vYnYzZY56HYGhvmkPIb9r0r/hTAMrbY6azGNY0lJ/WD3f1ironFyRMdYBtP0PgLazLAGlUpr+uErWLlOkAoqmX74G5eW8qmKoqE9dzw37A+M1bMOgO//zOuwLI6iqLNBOPTxREG97ccD657QZWy4oug51SxHPHoCxPx0QvQPR3uX/uKFB63xQB7ip+H94KnOCVv/uGDVMIlcSfy7gjAUah6v8bmkUjVfE=
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 17
+        enabled : false
+  -
+    name : LIB_Texte
+    identifier : 0x2b43621a11d94f7e
+    internal_properties : CAAAAAgAAABBUFF1mlvzuHdimxblR9AGaduV+2AhnoFvoaOGv0Gt29zuSmUxCvf2ey6Y1wtlQq+lLqwDMWIU6ahSOw0wf78Y68DuLJI+mMWD8Q3tQIJJrRXmRANNj4/L4L8EEjnZ1PR7TOMuqe8/6F79hSGc00SdCbEpyusZRNeHi42Xw7+gm0h/110NpgHraR83Sl3uXQyexF+wXyBfJM1WY3nM3jTaLgRZ6PZdhEqtmOGOAG/Z76bFWzATuBgY2HNoxcOuxUCPiNtdxwF5AGmEJ6ftM4l/NwP1nKWoUrgXGfeqB7n9kyfYQ/iUw7QXo8+WPDHkie90kYU08UFmMmwK/eEn/xdRq7z7mZLDsJPpA7zcgjDVSGByhQjQspjApRqp8KQQRPd0oPYReGaJyO/fDWIJ+TsAGHF66ZPWeSwFdFClgSY4uUhQIdtHlmaMdvAF7WBheFPK9G2gUPparIFL1JWBm0hiGQgE0ex6X7N2kdug/4L8a1h0mbKgN8kN67JK6dzmXw95TjqXYdiv5KOo7KG8SOQLchm437q4dC9yqhorQjigTQ/ujMNzgT1OReyi/hvaRQr4Ys3kHiFJfyRzrKSjsMDtZkjA
+    properties :
+     x : 6
+     y : 6
+     width : 314
+     height : 50
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+  -
+    name : BTN_Valider
+    identifier : 0x2b43621a11da4f7e
+    internal_properties : CAAAAAgAAAAqKaKr5MUJPQstw7AhGuNLJmRIlHY4hqf0adxyodyjbODh54uQlPBgGck9ZV5f+B81fbzrTklpre1tDNBoglhNY3ly/zOq0vlTd89ldjtJNvTz/L227WfP1Or8//w1AQLHX6jhBjA/k2v5RXGOXpCKf3susV7xchO3of2LojJAEco8O1yc5sdW0R/759KsIzxyfpxvOpk/a3aLBNPPDkJFcOPFJ56qGo+gbsFgcL8FJp33ycBucMs6p87M0+/5pnHxvUR8yniKVog9MaeGpDUfwp4T4A5b8rjlvSruiZbjxJXxmnl9TEAAkKiQeN/pJdJ2uP73gOpMBTOIj0nqqjLHKTF9eymHrxoCBubac36H1OPUaEozsLMkxRpMcekcYGVrAyxxhZtStV7NqJA9PTVoYCxhbEExgrOO8uZ6hASAGgBUWyfniKUZl1jJouW44KRaXwInlqbB6Enahi32q+lMKae7jwMUX5Xe5eXoFZxL/kNZzXCrTuIRzSzb2Vb1oBuCcNbLKVdTSceyTDd/g3VVsIWPlaqQzIdBUlggQNTPg0mB2QKCOCTtpXr9m5YH4mkL6peffGT/5CUiFuy2YSGeCmLx8OQnGUJxFCLf2+ZGCKwyugV3JHU6GWyHBm4j2QeLuodk7yhIReAcwr1dGYJXLuB/afgMk7RoRIgpuZn6N11bCiCx1wuQTQdgoTsvA3m6KF+t4W4O9mP4K+zkOJgfkWwVVR5ydmsdB/S+PHQEREG/5CJOjefgaSTEUwezKUE96SyhuxhP28CHXvJliq9iHv/U/qXdbyrPjMSMHdgaw/G//m8xuLlWJbaA65wKbLi8QrbhbHAV1yMijlpM+56wC5wmol/7zDdOPhMRuC0r6ejaGS0h9Sk8Pdyml85xTrjyWcqAB9Qe1MPKMuNvjHysDXq1mW0=
+    properties :
+     x : 277
+     y : 58
+     width : 20
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        internal_properties : CAAAAAgAAAAVBoz9GyLxV/cpZAP/ixHth4ZTK1Vu3D9NXK+sXV2BTZ1dCS8vV3emiqd4wQzfixWNSYyccUGkzaiG+91Vnkhz1s0z8q12+B84QW9aoZy+G8kj6T/4yE5f/Cr2ewxq1mHaUE+OL0iN
+        code : |1-
+         // Si aucun pays n'est sélectionné
+         si COMBO_PAYS = 0 ALORS
+         	Erreur("Merci de sélectionner un pays")
+         	reprisesaisie(COMBO_PAYS)
+         FIN
+         
+         // Définit la valeur de retour
+         FEN_SélectionPays..ValeurRenvoyée = COMBO_PAYS[COMBO_PAYS]
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Annuler
+    identifier : 0x2b43621a11db4f7e
+    internal_properties : CAAAAAgAAAAuhXSj+qlX+rhZoo23yAe4y+a7dESsSc4S/a7PGBPHewtoqiM8WDcJmem8ouJiKjTOSu95TuKA089C1iZ7UFAugGgNl0cyViEEspJa0xXV2D6g0D9W46chk7oNrysxPvLjVL4qmtMjWDDaBTpN9BSl1lZlgZLxhFTRYn0+GpG/KmQ2tqNFjA0+QBWuocdSMd9NuMT4HTb6Yr5zBYAiW8I6yEsoOmPrm1QMGbAu7NHFhLrqYqYk2j/ySuRx+0PM9VNbeUDzuf9gXyeDu6twuX/YY2p5dpKOOJ8IGkeQUikeIyGbzCd1haHlcDdLQnI3kJxSsUAgQbE6UgSKKZN5Z9pFEAEt12/9309OBwdo6N3u6/UIilKHpX+YKDPfshV3l0CS+JhW9+LBkI04OHOuLqpmL2Wsda+Hvo8mPIcn5zPk/LBtBeFIOq12055aIzE2q7ZSy/l6efLKs8+rdVONFq4WnXHQTl5P7vK0tAmhuMDcogi3bo/ovqjW9icbSOblyGXO2ZPJqtax2nHtLasHZdYpqhhRPp833yPOqxzD8x0zKdNsX/MDb3V0ahly9GZxbYGv3m0VqPIASPTgRqp7FEW8q7BrKjxxvCfivs/DeSDHOPRwlUtswqawlECU6GMU4y2i6TxIMvFJb3nByoYRN+94PVyeQ6bRtwj286uYwwHxlBKxBBq7Klkt84mKLek6fjazvp+QUKQg+SYgNWTLGHILTwEA2T7utkWfbMYqbBEgj+PzQEln749v/Qy6GMJOXj5Xtokhl2YVVvz723fNWhZ4JZZ9aZxjmum7R7B4Ygd69hwJJAGAbjOf/g9cnHX9AJVW2mdl+H3rmVmXwO074eYBLZJxNg8z7+0APrj6dmv1/6e+xsFJzRVBPQQPrceIMzEE2+Nuv/ofLmVkugi7GA==
+    properties :
+     x : 300
+     y : 58
+     width : 20
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        internal_properties : CAAAAAgAAAAVBoz9GyLxV/cpZAP/ixHth4ZTK1Vu3D9NXK+sXV2BTZ1dCS8vV3emiqd4wQzfixWNSYyccUGkzaiG+91Vnkhz1s0z8q12+B84QW9aoZy+G8kj6T/4yE5f/Cr2ewxq1mHaUE+OL0iN
+        code : |1-
+         // Définit la valeur de retour
+         FEN_SélectionPays..ValeurRenvoyée = ""
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2b43621a11dc4f7e
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAB5u68OnjdVBulO+kJ0ihjifx3XMJ9lf8bsBg6rvxyS3Pf4qyiPF8nL2IYc3jl6TRgQW03CUGnNauVK3ergbJxi2TcwIr7zzPLIp15AZAA74AE2GMRRqdfq8ZQlvg==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      // Fenêtre de sélection d'un pays quelconque pour la création d'un abonné,
+      // ou de sélection d'un pays donné pour lequel on a déjà réé un abonné...
+      
+      fonction FEN_SélectionPays(gsListePays est une chaine = "")
+      
+   -
+     internal_properties : CAAAAAgAAAAS3c648VZdSIcGyy5+4wwrT6DF+SgxhKYNE697YSO+C/M48G0BQUcnkrKT8QFeX6iz4Jvjh7uHfgUS4CsNltWZQi1w3Wjctcozk+DG4/azu9iXKmOT4z+Fzb/9rFJFUBd0mzntRZ84wQLrAw==
+     code : |1+
+      // Affichage de la liste des pays dans la combo, ou d'une liste de pays reçue en paramètre ...
+      SI gsListePays = "" ALORS
+      	ListeAjoute(COMBO_PAYS, pGlobales.gsListePays)
+      	LIB_Texte = <§$0000§>
+      SINON
+      	ListeAjoute(COMBO_PAYS, gsListePays)
+      	LIB_Texte = <§$0001§>
+      FIN
+      
+      // Définit la valeur de retour par défaut
+      FEN_SélectionPays..ValeurRenvoyée = ""
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 12
+   -
+     code : |1-
+      
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : Fenêtre1
+resources :
+ string_res :
+  identifier : 0x18c12c0f00102dc6
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : Sélectionnez le pays pour lequel une nouvelle base de données (reprenant les données du site maître) doit être créée ...
+     index : 0
+   -
+     text :
+      fr-FR : "Sélectionnez un pays pour lequel un abonné a été créé, et vers lequel vous souhaitez envoyer des données pour synchronisation..."
+     index : 1
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

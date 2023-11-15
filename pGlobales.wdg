@@ -1,0 +1,121 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : pGlobales
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1b43695101697c0a
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAABPOo5wfzL5PtlmH9g6pVlcqG1md+uM4GM8B/k/aVja5R6ZseBzxTGWZbo12UeE8bWym5Rl91AKrNq9wTYnFyamg2lAMw==
+  type_code : 31
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAABMi0hWVUkmSJdWe+b+M8SrjzgtgaAxzL4lG8d7iSsOw+t4UF1h+ddXwuLzCYFeN5izCIMLX+ebGvlOTGfB0gndbtlMWaQI2XaXDwwyh0KnDyTj9v8PnwNRMZsZiPahRJvghzXZOIdm73yVvQ==
+     code : |1-
+      Constante
+      	// Nom des fichiers réplica principaux
+      	cstNomReplicaMaitre = "ReplicaMaitre.RPM"
+      	cstNomReplicaAbonnePrincipal = "Replica_ESPAGNE.RPL"
+      Fin
+      
+      // Variables globales
+      // Déclarations variables globales pour localiser les données
+      gsRepertoireBase est une chaine
+      gsRepertoireMaitre est une chaine
+      gsRepertoireAbonne est une chaine
+      gsRepertoireTransfert est une chaine
+      gsMDBAccess est une chaine
+      
+      // Nom des connexions
+      gsConnexionCourant est une chaine
+      gsNomConnexion_Portugal est une chaine = "ConnexionPortugalHyperFileSQL"
+      gsNomConnexion_Espagne est une chaine = "ConnexionEspagneAccess"
+      
+      // Variables contenant la liste des pays
+      gsListePays est une chaîne
+      gsListePays = <§@00000000000000000000§>
+     type : 720896
+   -
+     code : |1-
+      
+     type : 720898
+  procedures :
+   -
+     name : OuvreUneConnexion
+     procedure_id : 1964529659100691466
+     type_code : 15
+     code : |1-
+      // Résumé : Ouvre la connexion vers la base d'un pays donné
+      // Syntaxe :
+      //OuvreUneConnexion (<sPays> est chaîne)
+      //
+      // Paramètres :
+      //	sPays (chaîne ANSI) : pays pour lequel on souhaite ouvrir une connexion
+      // Valeur de retour :
+      // 	Aucune
+      //
+      Procédure OuvreUneConnexion(LOCAL sPays est une chaine)
+      
+      selon sPays
+      
+      	cas "PORTUGAL" // Ouverture d'une connexion à la base HyperFileSQL
+      		houvreconnexion(gsNomConnexion_Portugal)
+      		hchangeconnexion(client, gsNomConnexion_Portugal)	
+      		gsConnexionCourant = gsNomConnexion_Portugal
+      		
+      	cas "ESPAGNE" // Ouverture d'une connexion à la base ACCESS
+      		houvreconnexion(gsNomConnexion_Espagne)
+      		hchangeconnexion(client, gsNomConnexion_Espagne)
+      		gsConnexionCourant = gsNomConnexion_Espagne
+      
+      	autres cas // Ouverture d'une connexion à HyperFileSQL pour un autre abonné que celui proposé par défaut (Espagne)
+      		gsConnexionCourant = chaineconstruit("Connexion%1HyperFileSQL", sPays)
+      		HDécritConnexion(gsConnexionCourant, "", "", gsRepertoirebase +["\"]+ sPays, "", hAccèsHF7)
+      		HChangeConnexion(CLIENT, gsConnexionCourant)
+      FIN
+     type : 458752
+   -
+     name : InitialiseRepertoiresEtConnexions
+     procedure_id : 1964530226036572316
+     type_code : 15
+     code : |1-
+      // Résumé : Définit les répertoires et connexions utilisés pour la réplication
+      // Syntaxe :
+      //InitialiseRepertoiresEtConnexions ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE InitialiseRepertoiresEtConnexions()
+      
+      // Affectations des variables globales pour localiser les données
+      gsRepertoireBase = fRepExe()
+      gsRepertoireMaitre = gsRepertoireBase +["\"]+ "MAITRE\"
+      gsRepertoireAbonne = gsRepertoireBase +["\"]+ "ABONNE\"
+      gsRepertoireTransfert = gsRepertoireBase +["\"]+ "TRANSFERT\"
+      gsMDBAccess = gsRepertoireBase +["\"]+ "BASE_ACCESS.mdb"
+      
+      // Initialisation HyperFileSQL
+      HGèreRéplication(rplRéplicationHétérogène)
+      
+      // Connexions qui seront utilisées pour être à un instant donné connecté à une base ou une autre...
+      HDécritConnexion(pGlobales.gsNomConnexion_Portugal, "", "", gsRepertoireMaitre, "", hAccèsHF7)
+      HDécritConnexion(pGlobales.gsNomConnexion_Espagne, "", "", gsRepertoireAbonne +["\"]+ "BASE_ACCESS.mdb", "", hOledbAccess2000)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x1fc796eb187d9af5
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

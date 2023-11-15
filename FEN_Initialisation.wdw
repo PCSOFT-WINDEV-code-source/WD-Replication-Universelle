@@ -1,0 +1,804 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Initialisation
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Initialisation
+ identifier : 0x2b41d144138d0980
+ internal_properties : CAAAAAgAAADPV1gvjZbHpl7hLD4B8KFo7dCwVsz12X+lyZXHyHOK3iIprbyk11HiNZ/gTamMJaVeirsmlncRNnEB6WmutKaSJbCugXJXqUbJcCdmzqXGls0MYVwFTltOp9yTC5QMNwHr1jjYPJulh/bEupPT4WVmnqimnZyT9OIN1tIQSNyFfGnnRB+EOR7fs31ZzLrgd2zr2eZ/PmiYOY2pJqijzjjHakgHR6ZJsU/E50umW8Jqy1XBHPXgmvcsbhfRsLvx8ZzLi7lW1vBqygHiUgOQaKo+SimOn2rTKFOru/vMxOJEp6YKroO40tG8LGDardONSZ2jPMxlz/oi5c2Zs+vthmRbP96OdDH+MXBxZHBvuvkZULxoMT30Qng6zlXEuWVXJsNycYO8bmf85uh4eBotkVYCYfdJKDoMLOxhMwcaRq7xuM4JDOat7yjmKnyYPSwSZG/FpIInvyhEoSnOn7HnygJYzGxQ34IsxG8Bm1GTwhHkQYdJtmoltAT+pvvkyVTXnuC5m6UsMOUZIAczj6bcuEPQKDdHUfZ9+2uuqH06/XyXuXfX8ENOHtpMVk7qPnUnZrTGuURVzVrOFSPaVWluYpO5Qq+GrvPeU3EIzA1G0gCvDA1AWkNtQFYYGFLZ3JA8lB9YzSQiSEGmtrPT1v/c0v/UX47FIbmykfZcXKlA3zGQGS4TBLtEJ6wSMJKJFK0jYUaR69Ik+kC2ttd0lk5YDWrF+Caz/aNKUs8vLoHyhVsG1Rp3XNZvWT1JB2ouOfy32IF8Qg7zrtzmW0l18XJ6ZM+7cIIR9dA5mKxm84Tmf6ughWVP5OzLmctceAkRiY6onLVayyzht1nvbUc=
+ properties :
+  width : 787
+  height : 598
+  widthClient : 785
+  heightClient : 566
+ controls :
+  -
+    name : SAI_CodeRTF
+    identifier : 0x2b41d2403159e52e
+    internal_properties : CAAAAAgAAADFUC7DNEEu5kJ1N5nq2gUrHyJI0K0z37hsQf/aU6Xg4MBZI9BWEbNvH+UGd7k7G8Iol+2qJs70acEE1esNY746k7XMc+eM/PPpfe2EoWwyHM4EX6+olKpnXaezUqNgN3JTDnqpLcUBOCWATkv+dTNxUb3GAIBwmeR0DAbfZ8RDhTssjxsJp6eFcQdeJDOhwQgM3eAVa/RpdoVb1vvcBjcfQw+huV2ZFiPahVvmHPnjfIMzA2nB9O7owQz4vkg/uvaJDXkrnYOb8AWfr4Cw5YlJ6c8aPJSCfIfFXGsXVvm3uJQqAnjEDJND+GSU6xftHH8REGY8C0dDURU4SfVu/kv7VfTXse3MKSn/ODtivDibtiNsHQZnpsXFLvOGLyPzaFFT7I0do6cNo8ykd1V7sUEpZt4lT6Bp9Mjvxm8PcPNixc0PlUOKPB1LlGvcGKvEs8/DtRLiouD7XPZaNjsrxBVSFIGcJmpOkBDJjHdNecDLecK3oMLE07LFDCZXOX+/5HvL5ut2yiMTJ5Hq4k6TO7H6OTYwcwHQw9wDAbuDdZKBdW09ReVfL1jyWaECzTn9VnJg97o89g/MCS7x2vlbjVwZ8jy4v7lmK4tuzWJg+ERBaON4OsSiS/LasZL0KkunTLUcwua5m72guGMC15tIkLmpPDZErK2m5fyXhA/K2DEpdlJ1/eSK5QFq+MDzN4ZIAf0GNdvelgHuR8HFZcbgoOhCTtS5MYXQYXZk93brWorF5iRTEXtu4Mn1+zKUjIng/tH86h7zghArwlGFQKs41QLA+Dn6nhxkimElmxPuMScXDyCkEJ9NQ0CKl9IiWcNVM7xJziWJvKsWuOQHPDx327VmPnGLncwoUpeoChiWjrf/D4ZowR0khfEijrgIpT3l3T3LqOUaFNo1Z16xyyRwWriNrAS6tOQk990EEGNVPafUZY4VOyjSIoUaIt/idVbc+6/Hy4ba6M9F98oB9SJS3mhdwbveRVpTU2EXFWq4PscmTKNpZbqmKbkqkFAv6UQwOvj75y9Ya2wqVo5228l+QTVUgqLqC5WrxQFzVXVaCJRHiFdjb3w1uuLyO/w5H4T7NoFYjnasvoh+DAEt
+    properties :
+     x : 6
+     y : 339
+     width : 772
+     height : 189
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : LIB_Etape
+    identifier : 0x2b41d25e38015751
+    internal_properties : CAAAAAgAAADM4n85DYU1IuBd1hBUbpSpsNHmxijvTMevFLmFU7rJl4gFkEMhlyAxqLuDsrNGf9o2dVRMXVn5+yTFFFAJjdAxRsbD0TYBpLWLNCOt9u4kcxSL0M0FNXiJxfRlXJv3Qni3fB4yi3933S5W2q1wqNUP/8tj6Hz4qrlQBh/TF9hicOQB/7VQmcLt6rB7S+AXIXMfOBu+R73taG5gwHUSU1aTgg/LTrcc9yK1JLTCNmNAVJlNO1HmA3zdX7We4E/ZxfGgf3kPbit7fsuGvlO5oKrxUZ9e8XYwikdNg7ja2w+R0PMK+StOXT7XMBlPySH3fz80IZOYHY8Yzr+bx/VSMttD49t2i6FywFUwfGQDYC/Yl1J2vKHorwEgkuHUY00AEdlbSpN8QrFem2IEzYuZBr7WtSxtT6aN7m+KwtSnFX7BVYPa6NU78XZWMH//0deUK9ThvaoqL7Jx5CyJY2/23h73kDZ9LydxBakdXim/TXY=
+    properties :
+     x : 6
+     y : 6
+     width : 772
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Terminer
+    identifier : 0x2b42074f2e4e2898
+    internal_properties : CAAAAAgAAAA+r+zc16aXK4TotXCANcip9gG8Gl1Fa8K7xrqrFOqsRYVkGCpjZFOyQlI5n02wLL1hO280Ak7c+ejDSyiYO/+JtwWFj1CtZqJCXQbdxRP8IiDvuFWQrfz9u9UAbsvb64LG1QQ0OM41rbvLkhPWeBw4MKuFfyXuzjU0rsJUa0H0NFEQDekAxHJA8sfNMxkZsg+DZSUC53HR7dGEFJRhxLJbohjBFtrpIkh9KhuQMtBaw0qnz95ZLDss0IG4jhe4/WRLJ0b2aWPXCkdWFvUARhYruTX5wiFptlrWY6neaSM7ZBc+3BJ6JOps/BwUS2gHEg5ORxE59IxucgruZwNqMjdCpwSB45+7GSlsCZgJFysuFB633WztB2UO0cPikw8sjBCcBPTJiuNYKfhjhEXBOjatO4A0wG+4+AIztWD1lB1L6HbGasXXpxTyDATO6kUS6e/4OI0oqRl3ZRG493S1eMMPFQnI506v1i6dIDehkqfLfpli0VXIDpsbRzRynD925ySWn0ieSuH9sWl88NjZUJZaneItUP+Bbkx4hBT+QUxZzeAq69PrCrxNorjqf/YIHVot1++lCC47PQzx7LxKo5BaFIZir42cZMqXB9PPcz0ttD05WfMrKTbIt37FG88JvwHJqUduSvZJl+epzY4b21I04kjuw8//FJfqVvrdAAskFECOLIAyAsd7dBJkA+GPtfkakuj3tL2kBoAOLv603Z3rOtCXGn+lptfdI9vZnszYElKT/2+Gguq54qCz/g2J0gU+F3PyS/5bf5RCdNBkVDsl0RtXaC/NivxLUQm+PXfzIkkMexflFBje5ISwGkDmeZ083KJKH6nCatIkSgL8M2BrwseJx/LKK6VpJCZRG1tOoD5u8vSwfTYDMnj5TyurN7oNsbIYno5DOMnxSqJBr/nlcvM1LwUHLmAgYjBs8vT3CB/FQkoaZu/Iy27QMpUzyqDDDtwSB+JXcfxU
+    properties :
+     x : 698
+     y : 534
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        internal_properties : CAAAAAgAAADQZyvpRjJZltgKBVFD+SKMukTEU1n2G2jmPSjnx1ZKdSF2vB36egNKcReVrz/xwpIZdIpZoyUu0CjPxu+MpGLAedmE/39iAmJIcu72BpKoWkpseLXy2lnJGPSMFw==
+        code : |1-
+         // Si l'utilisateur souhaite terminer sans voir les étapes
+         Si gnEtapeCourante <> gnEtapeNombre ALORS
+         	
+         	Sablier(Vrai)
+         	// Parcours chaque étape pour réaliser le traitement associé
+         	POUR nIndiceEtape = gnEtapeCourante _A_ gnEtapeNombre
+         		_Traitement(nIndiceEtape)	
+         	FIN
+         	sablier(faux)
+         	
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_EtapeSuivante
+    identifier : 0x2b42078b3d1c14e9
+    internal_properties : CAAAAAgAAABmMDPpfNyL2E1fFLY0MIX15l+Ug5ECqQ57V1fAJoEtKSFWFC8whO0+LoXLFyzQnG7UVNXbTU1RIRCIW3u/mS2iFwnArfSEUdlojGkN62qoFG6BeEy4R/CaHAwer7ntr5slIU296ziQ8lWUgEvTD+b33qGdbRPJG2PYVHHjrebi5uZcj0O5mwea3Llibhz3aBYTaHdaiK4b0/zyIVQt9Stp/5otmTa6Xj5xPAGcQgyaKjwIg3zHJvgcAVw+Hm/tzM1ayXAMhUdrxvlinOzDIs5+t2fgA5Bh2bMwhx7egwX8WfN6Yq3nA7busHXsXMR1AgG7IYcJj/A8JbEuMKbhRte97SNNQadD4E9hMA7dx4LyrtCl1IFEC4WPndPK2VfaHWniNPupkCymWsg1zgV+N8Zv5O7fyFX4z+aYbpMWtVknmzTgs/SRb6MdjB6NaWJaX123H3DHifxmmhRTiZPwAKh4SjyCUb3vFHVJs/3b7RqNKDEjpni/NMXfEDrXrp4JNFDUq44f4sZAFYPiXMpE/RnwrYtW7wqu+DNAcrGcS+7UNelR814OvmlsDw1kOtiATyxAtmbikTlN6W72GQxmroeFTx3HXg0qib1uccbI/JEa1tUZLrDS0QqTsGFXvSCQap6RBR49p1aUYJXn5JRMgNVyOSXNElUJ8Cc4+N8rgny5mFW0wiZF2Ejgh+w16+MFluzEp5RQqEFXIciMh5ZyQqRo3S/XGYMNjJJy7uBJSD9cVxiqZzEP4r3zpYGRe82QZWE5U6NB9mMkGMd5yTBKhh+CIxv97AZg4DSe5nQPXxjwbsO0jDY+RzCTsoX563f93ucfY2cdHrw1FzbcqM4A6dCEEuVhdU+JhCT0ywOBwWah/koUQv9QeKGVpyB0tiAnHEpe4UkTQeQAhEv1NRzOHq5LIEj6pImITox4JNQ69Dk7w+VxEWkMobTNQPeJA17TveZQ/mG0BHgEi/cmshuNKpRUvCd2IbFVqCulx01chlgF9E/WGhfcDZCOmYqmmVNf1qaLotrrI003BoRs
+    properties :
+     x : 559
+     y : 534
+     width : 133
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         EtapeSuivante()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : SAI_ExplicationsEtapes
+    identifier : 0x2b4207e245cd65d6
+    internal_properties : CAAAAAgAAAADo96AGYX8ZgbqF8iqSJYb/W10I66ZGd/G6h45OiOj9RyJa6iaqAtpHsb+8wcpa7oBvJPotiiEjiQw/Q+ehyIoGyW/L/SPH2CeQBQOUdStQ1YuaveGNC8zpW2h90Z+Fz9cQqbBGPBVAvSUBFhd537QkWlEU+o2euMJKlA/nJWj6GvC1RNuVYRBOdqCLP+QyWaOcYbjiEgW8iD/lvFuOXGw4of3gqXGOfxj6ZzvWbzwRBv1TAYofK6oJ+Yk/RBhMh/1Z7eY+IVZLW4azmS7tGsU3aEZOuwm70KjNYEWEQvZnGqkRHtmSPX1lSsK+BbB9PkEtk/hBqiJ/n4k+mNnzhV/QbKZOMzNJNKfUGxMhJyGGiIMEgrooZ4sxJOfK1N3F55Vdti3ZQh2LwX0TtJL4GNrnkJfY4TGK469v/MBOKs50IxGVzZbRsa5VLuKWN6mQRPc5LjstvYDpHB5lwFM72L+a4yrG/ztwvNe8ILN8xtiBsYGgFc2GTOQzA+OliMEsAEU6yEwKWXK+gpI4acgXJYRt30ZyskJEVtZvs7mEP51djkZaKM2DKpIOqwJ3Y0oBAH0JrKNwQyVQdYd4sGc+FwjrtJ2rNXEZl1WKDlyt8hPXLHaYUXOqy3P0rDJFmJ/dPNERyoF/1Za3KLNsA0GqiaDihr/fxnI8Pqombu1rgvmv82kjq7VieJdMKHZO/g1YJvtFIjG3ZXQqYOIMUONtEiB1+bcfRuxUPOXpVvfIQPAW/UFBEBgpJiaM5gC+p4raaX6shf26AEy9dnNjAvADdDxFf3vLHzdiIpEt3IMMBNfPj/fszPEMhxI+1JzIv/Yqy7A+K8Ue13LOTBirD2QhJ+92+FSh+f6hSj+eWScaMpeqxo3eUORmhouNV9aH5lWNLvOPRg0jfj3A+nqIP/wljPwej/7rx0EZPZgJpIrScXiRwrAprOitzgJykt92ULms0RTXJE3wDSLHzZ3w4GPGkQhx72w4PE5aVyqyLQUFzm+qdX8XG3CbWnA1JSDti/MEYUCFXygg9NerLFwPI1Js6ZzDfzBYymad3GAg0hESWRmaHvNkq7umsXTN/hI+V4roiBfbrhlgBLbQSs=
+    properties :
+     x : 6
+     y : 32
+     width : 383
+     height : 301
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : IMG_FondAnimation
+    identifier : 0x2b4207f851e0bc6e
+    internal_properties : CAAAAAgAAAA0INueVrtY49IJbta1U4VrBhrLB6oZI2pPI9F06TnizyNtgiDHxjQuDU95IMhsL3MSaW4QvKGbmnfC7EGbC7dt7lRP+kp6a11s3ZEZ5zACt78PRAV7qTyRsDmtNhSfW2YHqqsU2wdn2Xc1ZV6f1Gqw9VumiTDY/PE5hJK9Il2B9V9nElbWsR8H0xSBvG3Pwfe+REzNRMkpEs4PyWOv7HZtlTcQN9Aj30fnI6WDUdPvz/GGIjXrqJdcjVKcEMgqW+aDdFmzcHels6YsD7D6xl6ddJcwhWytwayH7XPuRgumCrqqvsVl4VZjJCP26JvVwrDkctvjGRMBrWt5kNZZ3+FCCr+IX7KMjQX+cy0TCD6MQXauOIz+QViiYnRXVBRdhjUfZ1o0IgIsqr2tRl2V9wRGRYX1AYiQBaHNVsPb5TAnjvcr7Pq2oloFT/RkqQdnPGnIuz5FChDUvj2/a39Gm5wJ6cOiPqsTGEHCfAVCXtk0XWF09TFDuAZjc0XisAoMNuY1VjeHZC8Zsr3xIun/8QUQZlqlMLJyY4QwDoeiuTqdrrh/DazK3cEEl+dKR5czNb63a+b3q+pJZhDxZIQWa+hXnKFq/aQDqPcnXT4VAfuYps+prgS49fLW92peoo0WtBIQ4GFZ0LD/N7+SkpTY07evpwV9AzgfLg95xrXsUTW1GrKhZ3Z6ie1UyIrXYHwVntzffs+2S0OnHHtbgeeteR8kJPdOXmJ1ibShQwzO2nHdBu/nwonVwsXUHhahbMpVXHCZJih+OLY9RnpHNO5gmKAxDHBlc2d5MQfjpzCiovKZsp3kfGPPL9fQpO8HRa0=
+    properties :
+     x : 395
+     y : 32
+     width : 383
+     height : 301
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : BTN_VoirRépertoireMaître
+    identifier : 0x2b42084e5a990d3b
+    internal_properties : CAAAAAgAAAClKMh3YAtK9FSGdx2obgU9WATj6jIUOh2G6nVRTIcwsQaaicTAI9Go/L7ArDKp9Q1JpQ3GpYU/o6qVg2nILUIvrk5aReu+q87UCJyoFcXKgaN+N2D2FiJXcbld2JMRnDx1sA17HQPHIiaTL1zBwU2tCvkvNfW/lExqH2yzrqAeAQTTTs8elABXuLpYc3jt8qOLdefCcCD4V1efeM+GLSS5HxVFjy3s9zKEXMAZ1lPHqnj5nslntUn4JsTcGaUopfHC5e3H4iXIv0jXEQp1VFtpvNYyoKrkGXLoNhDKaGpCeaTVjZ7qLvsG917Br6FWBpPucBqObhUkfZbYhLXX6uOdar67BynNPkvAG+zu28014wnRPTz3ZT7fiEGG5lntWnV39TYfWxgXjBKL06jk3FRvcFuJfkxk6DiFAfJnMA6M0TndmE/3JvK94gpQa7jzgtwWVZCbRRN9VN8CD0ywgJUmviBPf/DeHE1jqm8yWM5XqcxmsUFq1dKfAvFQ6015vSCYfkdE9IFGawWkcr8f6ADGfObrH+HLlmNlF84O2El/HsH8pVe8+jcvIXsi3FkyrI5NvBS1YLbkxVEY//gLKq/6XLDbg8XgWbRyMr70nepJIPK48KuZxUb3taDBbE6dl4Ab4whzwql4h5OyQAaE7kjtRAyvU05zxBRr8PE+lkY8PiOGxFtmXPZ0zW3Cb0tMqP95a+Inc9E2pd7/82RBMF5vla4+nHQTLF1XtWhYtPXUT6tDlqH7e3f57xZZIWWwaAFowDOu3clIps+ItjQ01ADGzZ26GLYYQ66nRtMqsahpzCePdVKdvEHXsB+j9qmjrRLC5bkUmC9uh+SB1eR7GcagAXL+gGe/zSUW3X3Mh0nrF3hvo/+xCC4akVsA4gSLkZg+51F34iFHVVIdrghvRM6/I304L9aNnJtqMqZI/ejqczsP/8Ve3b4qfDYeYiAntF+btOPK9/+By+AQ+/QKcoknoAKbcC12bmC0LL6Whjawj8qBl8Qhup5sgduhnQCrJkvpPsOTXEJ5Cl0UARicW3CAsIMOJM73PA==
+    properties :
+     x : 6
+     y : 536
+     width : 109
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         // Ouvre le répertoire maître dans l'explorateur
+         LanceAppliAssociée(pGlobales.gsRepertoireMaitre)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_VoirRépertoireAbonné
+    identifier : 0x2b42086e62268882
+    internal_properties : CAAAAAgAAAALZJQAx7vI5sX3wigxuFy6X/n6XsZtBpG3dfraGz6MwJX0/wYVmRwZz/e6A9utYk6EgQsdIqRnH/qJe6GBYzv/ndgVk0Jm6g9sU8lYHSCMKngl3xq/Xe0xin2jEgk/SCQgKX7BQeictgXjG7EBmBi7dPjFB7+1epjtiU4oKMt3glW/ymWRgR7AwO37t13TZAJElTTKGE6b5d/6/L8kHQqv4JoYXMfU/kMluleYJOPSsrbv5EGW295taGx4//XV8/34rIWeyba5cSfpi+Sr15aa9pBjTCiqWaanJwfVSsz8BYew3YyOIeKbP+WUJIhr753fjtHuejXnq1vuy9DAkSvd9uVL5dP288lnKigUxmuU/XwHmN/JlHEEwNUm6gHKASA8JMTiWSJz7mhbUpSvRCHJCybMhv4qYIC6IuDPeGilOXvmym7QEVXwoJzu6RisvWiBAV+2nTgmgx3UhoL4JvRDQSwScvr3pSz+MrOz/2214txmtYD5XNy5cwaR2Op8DEhOZ8r14MQOYijVk2pPwgBThnu1pLTTdqbp/jGR2IubSV3FseQ3DE088VCz8UsOdmWPOTRkwQzwZPHFgKnRVNltQINZfv7EkYn2IxvZ34oVSyAjthw0F7heHalmaQirj20lJH5211NIjEGZkyU6ELLGCA3jcFV1pCGnV5SlCCjW4bfj1kJjbN7JU04nsNcSVLDJNO5iXPcmquaWhmeJDBjy5bPmDSMDNvzxeDf3sjcO9MGkXHQ8M0WuYT0cSFlo3Fwibz27vDV4P6tuSs1mw1qfFoiq0vgzyPIOpveRX9BjdCgX96BMlyOoKz6u8w5BSiKJQYJfzP5BgY7ZYEjYWbItxkT36Qjr+lot5ajtr0G5sWVcyz0l/rs0CuNwwXFCnsNAkDUMlzd7EF5OE/EHAswk8y6sIguVpkyenw8tPczWyHHQjR4JHyL3zCvfW1DddOblvaG1aCOrLNS5WHlDgYVOHlO5sdyWfFf8QYdH/u52HPDeMaFMgGCnA4xepsqxBhCXQ6uSnRwHv0GRwvu10O7oyjdmk/Tv
+    properties :
+     x : 121
+     y : 536
+     width : 109
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         // Ouvre le répertoire abonné dans l'explorateur
+         LanceAppliAssociée(pglobales.gsRepertoireAbonne)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_VoirVariables
+    identifier : 0x2b42087f65d1cd6e
+    internal_properties : CAAAAAgAAAAoZyxxpZCSWR0YfZrj+WpIbIGl6Fdg2ZxGW28znzoCTK6N3W6O9rKyiOg01sTuwKhoPEazH4idXnQg7AILJzyyL3GlQJl4JnqU2Rca4jYXXSf/pZ4b7/fwmJjDhETV7hFGmHwKKvmbqOFdAguBZmnhxZl7WkLHj4BrrVYclI1NixkzSyWBqo3CUMkfc9I+KRvlSe6ZOP74VF6HyhlDbekQJG3V9DyUWZryxGq40Udj8QThsjp/PsMSqdOz4uwDTrXRa/SgTz4wVdj8Eam4CiAYHgodLc9BAO/ezYenBl0DR+gagQi63E0uAC27M7wcDZpyxVZTLI8m3wFt7rlqJHQ90znd83owMYkYKGm8trXYaSmuMiRLl43w+YqsbhBoFJZBYsYxEH0G1gA7NrbtI2MaYnDk0wQUizYdalPINJuiLSiPpK4JXw0agKiAETTIQlkt7w4N5buq/Rbtw1ydOziYUPwbzKWrKfMmm7dPMDhg3HeDxGxAO4BjZE1kHI6g6idGt5Il7JsgS/4SuI9MJcsM/LY4SXrQQouoWEnBIbXNvmD2mMUMbwsH2kDJmNR5sdt/2Q5/WyCEr+TPFpbZe+ZiRYssKTnM/8Hic0bR6monzcz3Xtl8mEXqXNflY9Bc24tqV2FTtA4tnI2ZEEPejAmvU4808oflP/oQlANzsJHnIq2MFJzTOFsq1y+Zi9CFXXY9dqg2FV7TCtRXCFb/4ddskngAdwtDZIycie62dQ5qERa9+jqFlUtt2BvGITxwBgLL6tO/IrGKGHmNNGVNV6Sx/uxHsYEhIu+HfoGmcHDsV5Z6UdaftkuFbqL3+hqnXPyY8otDHD+loFbKsNizHzQr/6NO1eSi01jEzNeXuiDO20WjMJtu6yR8WEjA5/qy4h78RS5NoeUU/aYly/FI0/qsRzUeh+eFGk90foaByDv6WqulBUwp/iN797KEmHcMflGx4sNTFHIgiQxBHsf12jqpSevFb5EUkw==
+    properties :
+     x : 236
+     y : 536
+     width : 109
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         // Affiche les variables de traitement
+         OuvreFille(FEN_VoirVariable)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_Code_Etape_1
+    identifier : 0x2b4317fe30c7d07a
+    internal_properties : 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
+    properties :
+     x : 1074
+     y : 6
+     width : 100
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Code_Etape_2
+    identifier : 0x2b4318283a9f7456
+    internal_properties : CAAAAAgAAADPWT/Iko54YyhV8sxSWGDGV84S9HBoXwqjLKMo3GHHJ7wm0mOgbI1+qLNMtLlb9ADkMF49MvUF2CHEZC3qiHt8sWSTx2NVjdpSpzG6qWE5BcEJ9ASo9BQ8XhYU/AoBBXq97NXhAIsiuU3IDUdbB1ouqRWNKfvge0ubHyouQw7RGC2Aw3LkK9z1h4Rh5pHZrS82wm58mxfPidgGqFXK5w78EuIUzWT5rMhMPd3VrQ75HW+dHpGe3GAKgmVIelRgjkrgpHPFakrGOfwh9OQGK40eAMfeg7FPpCEPfvlyWNoNtG25Xt80pARsRvN6XXZOnzSfwrfP49DDFQ2nzK0xUhRspN7+PGQa2oEzIdZCcMhyDaxXMRck/NMoa3+49BUrgmWkb2x6mcxiKHxUt7HbxNBce7iOgujMgqEmPm/STI+vHfDVwoOWajlQsr+tTAtgzCUlEw+mXHVdy9yDiZXkOsL2EvuFzWHNhV8fhPm0JikX5YHGXoExsLhY42259N1Uad/XHNzO8lJiCeQj873z8qcLwNR0Z0lghT8gRTLRLoq0Pn5SDFxHRFkwKvknn2tmlGMKrBh+oI0t1Uc7/khCyt1lPXDAb67rp1/S6b4x7ymA+zwOfEbAGg9ybzkpFOmx3AGXKEge37OhEPse8sTVivOjMHVOheYvruHVA4DECT1KTXbDAV2mr7G9gyHmsCv9NqAo9/AAfENrm2YG1U1ukAcPZR69NDhfvccR0bd/4fKtZxcHCRbm5pP5bQC+gvI6awcRLzusfU0tIthlA9VJoU0YNdcanEYeG3LglawLKQkERotoANLBb0IU7VcSjEREHRgVZeObgjmUUKp0jn05sTe7cxDpp7jRvyycAB9MgC1/jKrbnDKHe/EG50HdVkDvP9jQYDw8O9hDmd6p2zDNNQbTN4XMtWg5Op8zgRipsDAAfbVJbbr0MVY0YetO28HlpuLwN8Y0weDuprFwH7sWdkKA8kl1s+ADyaFYDJGE7Q0tW+yZqYerCDhjpF9w0agwgUWjoTARcXvO1V9yGyRrnuzETAi+0TvWjbl6ltmN6Ry8B/E5kIvrWY5rPkPSCEswmHn/XoD5bIb1QjK2qiPmu4WemT+Jvc9CMFChQWQB+ZXkayIlf3UNat36o+JcUiHFNSH3R2uyQxoYz/SbKk6YVL0Cw2gCqxlkPpyqhzfmbeZdZ2S/mFNOnbiDkUYiBlw48kxxp3plXMx7hZMjdS0RKUuSiLX9sm0c/h9Vyb1VHqYpDypEATN+QpXLTr3s/7SUhhOYBpA3LGTT8iVhn7lW4xX+cENSRtsucs3lTRvCXVFMz1WHAl1/H2oSi3tq/AJ867bCgN6ooQ5c3zL+tGjvJYUIvvCjVYkQLiXKYnSvXVH1ZsvzOKk3CVLhY1+tOnRufbq2fliBrixDCCqj1dIyrn80Ht4K1sQz2u2gVSxjtz2iTScl1IDKICDnAPe1hfYjKbdou2HNq1v+oee4ZDIp4fZ3TPL0VF0chvjjnYA6ik+7I614RkMVIkRC/XIOYBnmrCm9sbhgjepLdOwnksH3aa9ruXo1POgeIQ+WtG5buWnd1QuKwE0w/3aBdW15Wj8gRDwySmyUJ582vePHqIoRQOQznHwCHvFvGENSnKgPoVY0764LxzO8F3NWsr7JMvjmQC2eksPOh/PoGMF0u8uYyzc=
+    properties :
+     x : 1074
+     y : 32
+     width : 100
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Code_Etape_3
+    identifier : 0x2b4318443ed5e3fa
+    internal_properties : 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
+    properties :
+     x : 1074
+     y : 59
+     width : 100
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Code_Etape_4
+    identifier : 0x2b431857448a2cad
+    internal_properties : CAAAAAgAAADu/VXVhfOLPCEbj69IF7XtLaiNuBX77/HpcsVvhVjuJxrGcAR4QyUrXavHsOX3oDhFZgbsD8uCZQNhSz1GxDhjiVhUmhbx7RwHaj1EIWmXIzGNEMOjvQfa190gOltbNVY5Kszr+vR2sA/I5X0yyqzbHkVQaZyQYjwAPMmE3RxmjpWYVHwwlZ7r9Iqy+T/kjpDv4kMZyKmCJr0NBo765xdPbQFXGrQoePGPfYg+3u83TQHn3oYTdKfZrnYvFUTQC+JW6ZLJewryEQFAiSyoPJ5IR+QIMwrZvulUA3E161fOdIsy/FS0ocWugiO5gFTktpE54pYbN1twexlOT7wiCbe94ytvg0XOOy9oqNfPMnCDmpaMxwK/dfPeLy9XhZZB4tOWGbeToFZL34xb0a5e3rLjD1BCfZiPl98xZI68OwOqJG3HHitpFuY3ccaabaqilrvyjl1QptC4Ge/pLtILhwqeYa8KlHHli9lhJl6xlcrrzhkRii7zRPOSzN0qbtlamiHV2YefEL0Wr89y8TVH2t7LuVAVVuPXRjmTQcOfj7tOuKIQXR2kOdofJ8ShuOTUbeN5q/LHmYc7Dg0NgRAavUtDAvV7ux21r6fAa7o11PvsRb6j1dUIzcdf3hA8B23d+hvHtbRoEMXQWARSLZqHyKlsXzYZIwNusKBnzKRg0Vvs99lzg65lhkn49hX+mz8lzX3pfiXrugewmzH6Qbn8eBI4FY5d4iXX2n262J2quXErgaE+uKTPX0nQLBw3P31+/UxduoOylYfjwhezEsw5aqYEUJknHnc42E/y6YIGM1aWjndJG3EUtx+Hl2jkXQzWCtEDHHQi2zKWzaLVmyQil0wtRXdeS0Iziu/Z2y3P+v755uhv6gGEkFrYxwsvxIOg7b9XzunsROB4TeRLh1c1oFUZnX0rU4gY4sS4T/4ygQHmRvOrsmPfX6V6ndbS74swP4BsocM8fCXgkwaL/6sZ3DkmN0gJe0AOY+eDL/RUMDy0jrwiyVSvCuMOedrNnxDVu7HZSX7OvySeJBO/xdX2tXb7vN0vLEpupBhjQPyKIXGYU4xShpYvNgFNLEL3xEj99hhurDWt1cQ0D1iPunnC5bDXAJ2Gu1VtnyvQtHP5MGUVXUHjaw==
+    properties :
+     x : 1074
+     y : 84
+     width : 100
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Explications_Etape_1
+    identifier : 0x2b4318d159c5085b
+    internal_properties : CAAAAAgAAAB2BdHZlVS0t86s07jx8ZFhVekrkUO8vCRJTQHaQD4t8kJ/I9g8quiPHzyY/k3u1DotksvVXcdc548WSEWy1lyoJnLeI39rb39HXo1RwdF8fMxfHk/RburbcZc1erRoC3TXMbEt+Qr1nlAMPgg7VulVsG8/kDovnLPBOFwQcIigm5vh+uWkLteVKSJ+HGradGNsTYZJHdWF8jCF9leY8vmo5MPMz8t0XLttyLWJtqTxMUO+xeE5UABWju7QI8bFzR4CgQTgUUTaUD9dEalNpF4BXkd5VK7m4e80gc5jJ8lyNyOa9a1r/Sbsevyr6cfdb6c13LiM387uYd7povuRBSC72qOZ4iW9/8Bix9RnJyTz4tam6O+M3wAsS7xaOWYc6Ni2wWteZkgw+IxP67zzQ06sIL3DPHy6/DNmBFUXJXpky77Q5WBOfSE7nLSBXZVlLOD6twQ9V1XmCEyEskCwEb63zQa66qvaM83JEoE+hCN6RHKhUTvAQJt+FyKUr4CWFn4NBa278sI0YkTgn1B5TNJSVYDV13gv8i916mHMo4++ZxfkODwgfeFhGxm3AuLUWxjkVr7p2znUJ4h3+CoP7GHjxBEKSifjN8x9V/8o87koW7fR5qWDmZu0XJoMngsXk/9vvJ/nEv0jrAN0MggRYJxuDD6vky4b2aE+sB4kXxOAEN3JHJEZ2PsTD7YWl8BocYD96jT8MFQHv/uF2kIBDKsXBom7zDEOUGXHXt9IBs7p0mz4TXhzTR3vmQV/nQ9Yj4FywfiYBvjaFQydMeaMmsrnO9LcbOXP7Fc5dA0qeOC9zyU5ucMFWi2h58IEDqKkgjZ2PCz/BgI5oofrqvq/GPChjKGi+Vs87wYL+KfnBy9aH7RY1OQ+1BNesNhgTEBT5Lfdfp+QjOvy3QAsXlmu9E4uaPER06ywxV6vaM3ZqSrCWnEC9xW86Ch3sqcrbEIOIaDZBCrI3V68bti6IufspNNNWJeDabVvmB3hTvf5j4Hss16cRgNEhiv7IhYofeqH3SQrOFd1QZFzRlx74mGglxxkleeMWc3zOn5BjCWgsCiYM6olGpooEIsrlk83TmrCWB94Bps/cN35CIasS8gapODxsJkPj7tEuXl2DkWGxlsJsCgPxhwfxhcKNKIN/51YmxY2n/otN5JWvBsv45tLEK1OY3PEbZmzU++Pndey2yt/BSIMixmbEHztZwTg0T+xnV6/Qn3R2/z7sGyeNZFzLkGPxAGBOEVKjfK43b9zGaQ4xuc/N2R8kOUHqfy6N7duXpyu5uIAe+WhU8xp44Xj4Haa+rYCLcaiP4PFtRPpZu9OvALaNt8IVcNruRL+D/EB19H6B/L8DwnFpEstNA6F7+cXWKZKz8+uaGOpnJy6YNsbUXsXcbif7And7bk7lXi7faSyOstmpIcv7D+Rnir/044qgotKapkcxPuWPhNbsAyVahweFm74lebdNn0SKWTQDB4Sy5EzgUWIJfonbL4ZomtZZc+t3Ge1LJx9eDIx6GEWlauLZjM3XVSbkI2BIseGob79n17vr5xhh2QCsXL9nRHArQ3/xW8x2z1j7nhFPnLhdbslGMovMHRfoIXe2F8i1lGkadFx92QFfPT6V3XcYlee1TYR+R/Yv3sP1hnw+m2ZOmYIGJvgvW3rqL+Gd4Pi8fwtx1jjSTR+o+hQChbHewbIydFl7FNhMR6XACeSvEeLJofFqTuYktCfuGuG9xp3n+F0XdFf1NBtgToDJ0/Yr4gmgmpbZer6lZhxDoBH7rajolth3O4TQagT/X24OJNMVUpTQ2EzWs8RjVLOXBOUs91qhaq7Vk14KpMCH9c=
+    properties :
+     x : 1190
+     y : 6
+     width : 100
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Explications_Etape_2
+    identifier : 0x2b4318e660f05ade
+    internal_properties : CAAAAAgAAAB3KBAK5fmhMuLl/ScZBvma2siPaHcYj1HawoDCyH9amUXaaDx1mZEZ/8lQRbCFaFrerqpawjxmgsFNYIS94Aa2JayNONsWzKOUMtK0UvLT6EbAnTESnzD7RD2cwR5/KlsVdh7m4ygaN8J00/Q0C+ZoDpg9yTAkwxJn+dwWO/GE59qLxE9Hr8a/yoxG8AqcA5kFdZ9ybklV3bKMbmh5AEeMjQzOmVDF/KBGXppuOUVNptgAktAPdAwMYjg24lRHl1kRN5FWTy46W1rbOS/EUpbCPQPwttpu6oKdXOZ2ba188TO0WckzjE4fG0vzr0uTk6TqUVoz5rpjKWWlaxpuSJWUGyLnHLtd8E2LQjeFHn3a18821C+IqC4NQ+4ucicbUSsmoNQuOLBOvXClRpIMVEPtZSbO0oC4vayLmXir+GeDL4zasWOnd8l7GNyfPMY92CRxQC91xx+ru+x2siuuRTp7TfqPGidDvCfTslUNmhsmMlQ9nrsl/6rQbTVWm5XjRgPAtoZNg0r3K++mmIqG5GiwqWHRReOlRJlr4HUvNlDMhKOMc/zLdKuVn/4L04MFhnCR8d/a6ttKQAcHAk7wVvxEOqOAbbUk8fC8QCHM9LjgpmmzP2BSqnC/TjvXKbxmmhwDyOU0XZT3v7mp68ISww5hd8q8c5u2O0+JUU1ExDWva4TBt4UJzxeQw/HRxcDmu3/w2kQFfh2M9oAs4hLC5RUNnP94o4OfQpvqK791KmfrZG8EgeYhY/NHDKHV7LlHGFqODwNrB2egmEP/xKXIjdVj0aXKYtH7KkDbxiBvrSOpx5AYmjtf1S9bk5FEaNsM58B7+WEBDv/ceaDuEbsbxRy5h9+BMmDU8VfmP/nBxnwcN+JdO3wSHQ5v2pLXzwi2T+BU2HBQsUHIPs1oHR8btl/NVs3imWWKcj71gPKL/1dqqQsHc04WyiHQXRRHLcTjh2NAIwoZS/Wy+tUsThSuvq0eIq040yvLqJaA9kST9LwUuRMtpo5lZagth8OgJjFf2SWIy6Byh+x2wnEPBp1q/vRMJlRLSXsQo6KMxnFjxS9maWmscDor52AiVRRtI42ZAA8Y09vasHlMwmTtYtYM0hb1Y4SUABfubp1s40s64HyXyRm2HWsujfdcnMNe//kl3PQOT0qzwGr4IeniIxkfljZP8rZxhv1XD6U2BxmiuvONPAO5T/xyRgvZpWwxyU6tFXjO4kto5NS/lpIrfJ1exdzYw9zQDq6S4nduu9K/nYvBjW4Jx1oRLOG6emQt00LgqNWjNwGXiU77FEG+a7SykrXYg2c8GqjROo2U1AS6II5FSSr/r5j3JuB9cHTb39VPFHDH4KtxRV9ehhHGo6QPQuZ2afiGjizC/8m4bBJsZ3+MBmJhQCyFA7s6tZ0=
+    properties :
+     x : 1190
+     y : 32
+     width : 100
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Explications_Etape_3
+    identifier : 0x2b4318e7613f5f9e
+    internal_properties : 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
+    properties :
+     x : 1190
+     y : 59
+     width : 100
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Explications_Etape_4
+    identifier : 0x2b4318e8619163c3
+    internal_properties : CAAAAAgAAABAotJV8W0Lv8J4apK7noErJA/ZW3/MzbkfHiF990+mFSLgr66cYa/GHHrwY0ge+oVJO/TZlAg3Li8RnFtR3IUN57BbhVzjLVApbufh4ShEmZz2XQR/B99PFWrRMdPowxY7Do0Pz07bAjH4HYHlQTnTBq5kv1+mIzQc6BY4S+FQ/fT5FtPyIw51E8bwIJCOXhGQufyyqPhJ0nVjtJVvcLm2Ld6VauU/CqZHF4Dg8k8sdmATT815RJg9hQ84NwySsl6F6KrjdKiPJMA0P/H+cjPvNGsaL/Mou18QHynsQeL3jAKoHuf3wHHw8Ke36H8dP/E3YG4NScWb1Akb3ZjBHrg5cNvKYL5bwam82TQ8621Cg+rr9ALgSLC1rB82Ew3zixPeulSLs6BhBzJQqN2mb8rmfUAnjg/CmRqqD8tDSVpJIv/AOHYbXSQPHWHeGut6QQIACzx0rTxBqjkxVSiiQz6BbQ9pvK7kSo5tgVrXMsm5vRGsT1x5HCOt9OyjnuSr3+97E0i2sCoQe6S/hYbWrEV5yacMeuA2OGA8wvtVi7ynKt4PnTExUZLhITzErTDFwNiKDuicSlFtH/CBHXhHUpo3ZE5jIO/J9/mOzTbG4NsNbOkRJ3/f9bP9jRWGS7BYK8BbeEGj+RwlA6B2SojAAuoV6bvJbEC/2Oiv9Srn0qWn7Xk93CBcuNRsV7gNEEguVVjdC7q+CUQAiN48mmZkTt5pBqWWUDoApRA+K0GvTC8YAIK9/9uVZqNeptXknZSu6GDyYksbvpQ7+/Cr11RtMciYLjUx154dBXEJG/uiLKKWqVmqKNSLnFQVNgffHefAL07swguqrmTFZFABUGbQFYlJMBIZWvppCltwPz1QWf0/Cln5tGDuHaCIMLvCwOC2eQ4/EK2OeTSCgjzYC96eaPwDaznNaI21HBA7p7GR8DhjhBgRURPrOftKybOrGriC+Z2otbnqNwqc/gjWD33T+enbB8P9EqjSuohVbzkc87aNPRK0nu9H6PXqCyytM85+IsdwfdSszjZZT01dNWojHnVXQjqXbBcQs1yo0ji62SBPaTBWIffk0GQCBtD5M2a1CyvYFNUjqI5lGpsWhPvzloTQ0Xfgs2NjicCxjhjJ55nGCQ1Efm8ORQlLvMVJASiL9co+fpydg1VNjdeFvT5umPQwyqI9+zCk+XxpG2pdDaGFgQJP9AzJ8dxebUl1N6g3Ippc4MIc1GphQEF7vLtjuIbFODV/QLAgfU8AuFmNZsCP8C5W5Z8YpJnaZYUSdszcW7fsd92f1M7d0NT53kv9PHb99m40OUTayOmaqwSZOFKBHYy5L3iJ+WOoLgyTXCOJSRiEpaisDdGqRhzoKszATwifSV6OtOh/bjkNBS91WldpT+AkYhPoRzVykZjcyo6FXp92mDr2cbzFfc6ITPX+RnDa9A7R4ldkzBPPsmy4dX7iqOqiZLOdnwYmCTqQxOsKRKFt4ePrmhug/KLrP+ybRRx2WHBLWeBDC9uDhr2buv6NYZyodeYOvyCfu/0mHsT6b6j3NssS3TDC2z5F34uhiWKnXSwKpygGYnPXx4+DVVwNuUcXkKZaqqZD4Wgcmx/sAZdhQ6sT/YaI8A5xcszJp5x11yF9LW0+viHAjdsihQuK4/MuX4LsZpxZoXB3SDrqD4tAcDBik+MSHJ+myIUv/T5qAWVBQmm7CkoSPF/gibekNEmqyvUvfzXxk+l0k2uVH2+qt99cB5931JlU/m3Ft3tZbesGCNsNf6AMNhBEqwlfHzY0W7ZuSAgm3A==
+    properties :
+     x : 1190
+     y : 84
+     width : 100
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_ZoneFond
+    identifier : 0x2b437d42828b6773
+    internal_properties : CAAAAAgAAAAFSd8GkwPHc9+PpPzAUC6bR1S2hZcVSb0cPyDg8E8bLf4PdmZsuhG4vxU37zqvu/72MAF52LICQGXcYMkARSWcn2v/tpqxT1xedgFeuYK3ngBHj8tI3kN9RTe3iBnE8eCzp+83waNtIig+XJ78DulI1KNFxDCK4ncbdl4T2TuwbOU3hjaHSa/oBYNkkOIbF86tXNYfrd6mShtl2DpObIUWl6Pw6EO9FJtYxWx80+5O+xYLRfAVWehtTn5dahYuOkJvYKt6RM8UOQvqhUBTHr5CfJqvWE1jYJziWdq/xzpzb6+MICNKkUBGCHYsnXjYFMuFVV8YttKEFgPwz0hKQMKBZXtwRU3Abz8VyTPkhaeCxc2RxlATatkUZmGXneB/wzKNQWWL8iu+ZLWPbjebduqi2iFSglCwp3DcDNfA
+    properties :
+     x : 6
+     y : 6
+     width : 773
+     height : 522
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_Modele
+    identifier : 0x2b446ceea2226f09
+    internal_properties : CAAAAAgAAAC1+W6UpmNYdmqznc2A2t5IOMyK46VYXabliv9yG7gCp64owKrFfWStANSca8Q10wqQbcWEOOwjuT0sJ2DmKGmHHjp3+9wOQBWn1uQPsE/xk7chnnt5PGoLyUJr4QPvgGmbyW+oynK+bTB6eKVmIHw3qzkuO5eIB+8/ynd/Dd20WQgSAybPbYdLbZW92NWhWCgHlpRW9m8UtlANmlKP4NOFZ9jXHITIGOp+h2/TsySkHTE1mXrg76WjGG2+z9eKfhKm4uAYGMd+Ej2H8o5Y1R80+48rEeK9ywn+Xc0q0jUU4Yr2TiKC6S/OwmzghixfVD9INQqQUguqErULmGum/zUb2lRjLbjrnXNzkPwjILdqkpZxVdrVt7jr4UO+O7zuWfeStospZzzAu7PfCgPe2E29RbWySKTli+FglfqPnhsDkEZjrfNX/1FQHepoqfIH0I9noroME4O9YFhMvYoLMDvG3Nzv9XxXCfxPoLGV7/TwRyTUNwby
+    properties :
+     x : 1080
+     y : 193
+     width : 205
+     height : 41
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_ModeleBase
+    identifier : 0x2b446d10ac22f133
+    internal_properties : CAAAAAgAAACU/MswHrvbtnkepQOlbftJo1AqoBYwoVnrRoGtQibZUWYhwYS0ng47KnaT/u/6FKqbqj3nHeTTectsRkDQiaH+kq/TRQlbLxuREuUOgHE9J3OFbuaMgQ5vF6ww4xriR9pZYfCXvEYoSkPMCemCmQZiDd9+62qy6YE1hAso1Se72g3zUJ32ny8S44HMR/vLX5++9JSJAOSn0NbWMUqt1hLXryyWTjiua6JKnByB4JNO56oWpa6YemdUYBb8W1rmmFw59EHsQT9SAVBaHYgp4YVKUPpZwvy0kedOOXGOHAx656+r4FJ0BJB1awG2JwE4DLI4HR2iKZ5mLXT54QG8JIVGyzze2hchpqGSzlsfnDD6eWOLLcQuVOfoXXpqKfBQHLN2ptsyRiO/O4jsyNNqXSBYIIrDmGSiAdetqDGEi9EuZGrI2KICJqfN5cIDrGPNmTLT3UvKZiKFzeIR/qMRbWs93tA2DEImy+tdVTYpfXMEZ2gIhu4TtZYDnOdIUw==
+    properties :
+     x : 1080
+     y : 161
+     width : 207
+     height : 19
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : IMG_Etape1
+    identifier : 0x2b47134d1db6ff95
+    internal_properties : CAAAAAgAAAD2x8UHjM4q+SI6a1bzuTry1kANBmw0+KNtm7kqyBhtS3lN7UUqkDAmGNxpUE0ZOdO5rIWoG3bnlrbJWQFJ/lIguqSyr/ltjH3qCI7TD7QXtGaXCP+52N/xrAjhdqwNSOOZVJSXyV5bVbqmlIHPV4gcwzk9Zy5co3edyWMru8nboPxhr99/gC9lOJcL8MZZEPq6s83j3s0k0DJduHUTHou8lal8ve83OhIiOqutxRRJ5dHexNMFD2RLPXNiluiB9G1HzGtqXwrLOa+kOjpo87mLQO6oes9leXc/gv54AvoficszCqaX6U2kzOc+b2h4rekdbSHCBhm5+SdS1crghgWdJKLeefPGgAcrmUDjdsXzW0jKG2rEWZeD4vAUBxF+LvYhlrdki1ohQ35h11xYRhANTy4UsJz76VT1j30w7mV/RA6RcUXe78hIIJbItqDKmwl0JOQx0QZvA8YYtH1ptZqVio+m0B6KiPLrJ7N4wXyTVJDDLSO44v2tSNoUSHPeKB/23LmzMth2/Rld3hDBIth48VpFU4p34KC90RanoChQu0QdN80OfLiTNExgcT8SXTGOGko3kjvCYrIxQSpjgDeqACEJZOWEuEaOPNhzanTZJM7TKJeet7C+/R6u0wB/sKvknTBHrBG8EDaY4jAbSirs8aKYSkMD+TROzv4gxKIkeq4EEKJy+oj9lIF1oYV0POq2pLHoviGdllwyq3By1z1qyXN+4gcHcDH3oTYiJ/VbQmGZVQ==
+    properties :
+     x : 825
+     y : 297
+     width : 385
+     height : 303
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_Etape2
+    identifier : 0x2b47134d1dbbffb4
+    internal_properties : CAAAAAgAAADvLCx4FSWRmMOFCvWSmBmL/5nET6XzN2oiUmDtD98sCLoKNALX1/dlWR+omwhUVCwesWBp3MlqycPEVBDEed2lN9E9JGbUO7wrS93mPrvGZae8t5QO99YHNo7VTEgZdK09Au4ZrxrF8V5AMG/Tc+hiL68LXaB0YSNp45PJX72zVqDfTY1JwOV16EU/Vt7xMGCyzfd1UJFuUAr7qFNv8gvSWYfmwwWvYOoiAK+XGXBxEx1MHsW3k17TgcW6NKiB9ENrqpVkcdpRffP2ssDsH5FRdARCbLWFv3er1OIqxcbfHXfDXl6T9S2EeP8W21S09cVpdf0qGuXxEcOKZV4U+t3xABIaOTcKcJfnAXDH0kGTh4TK14LojfdbfrZuiZvwvPh7tBHeDTQHqeQ/ya7qUA6HWTwuki59N6KLbb8ikF9lJmh3Q3eoKa7e3jQKgGoU8dsWolYLcxB2+P9DRc76ZltWPc6LmUdTp2PQYnSxOp2ARUMyYjQpc4yawaFJtSAzTUAJEy4kQ9k94iqE60X2H8VxgNUeyBf8syXG1CeQQTmhgKOEVC4vFV+4ab/RwkiT0iZVkQegO1SZa68kmus06VzXf1AOrR5Nx7eXt1k0I81mqY0e0Txr5KOT4tHr7BlWW9CLxO8Y3SDNIwXXoXGk0a1xdC0Tz8iGhkNZ2YldOV3juxHnc89HLcW4U8A04sYz/y9943Cp/+Be2ZP54jk7HnQjACqlyygmkdBWQFXDgIzCK0iATA==
+    properties :
+     x : 1300
+     y : 192
+     width : 385
+     height : 303
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_Etape3
+    identifier : 0x2b47134d1dc0ffd3
+    internal_properties : CAAAAAgAAAAskW853niki5RYzbwlQ+ysBApPwBYGOmU3obNwsrLXjTeXl59c+opIsiqTtqczK82vvncalfBhEDjfe7cTIDTC2MZU0TMXxgdsjgBZkS6RxnQJmmkzSpH/qsBZ8hBJgEfFrABfJVKzhYbmjL27E4ggN5HZNzpwY69h4ZtPN93TtPhBa6dT7PelBIczHPK1wMbWs3GDwiHckFY1OPmXSvOAiVmArZO7UvqW8vNZkYgRcWVmaAu5g7T7WZOqYqyFlGmrjG9yS6ZzSaNMAj50b8l/pO7cCktpWQ9rwrZM7Wb3c7+F+Aj1zXM0iI2q8bho/dst+xNoUHFjITNoiYzQhtVXVPBIm/E2Iu/Pr/wZdrUnMRhoDVTeRd275qWjtsB9KeUOL/rjirF6epHKYvcrEd/cFC8PH5PSwp8QQKAjkVAaZ/PydGQ9TumLm38jqZPFlny53R8wUH2hdbCKItOHA+TjeFHULjywsizNWVHerxod4gZte2nmiGfXYpxSTnm0Mh08jlcJ6GbAB1MHdF7PGDLWj/zLmUCVSrpXI/TVlqYyESrfDcN02lqFFpbGj9UYV68crHg9mDF0ZPxrVzBxLpGIFuNnIqv6MuAA9h4p2Opzwlx1fsVc9foot3gA6V4RJh12L0K1MosyhrgaZLbhlGCmC0Q6KGEtL+ow4ICmQiSa7CD2ArBg1G7jjosPz+seirTgTusuZHvzbGYM9S4wCQOsi70wsDXRRgeZA6iwtUeJbAvDDw==
+    properties :
+     x : 1306
+     y : 508
+     width : 385
+     height : 303
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_Etape4
+    identifier : 0x2b5091ef3d507f44
+    internal_properties : CAAAAAgAAAAGd1X3nL4aydLqG8ZDKUrCpjDdtrzkaHNdS862CNhdC7ktDfXakABWKIzZ0N1JWaOpvBVoOyaH9hZJOdEpnkLgWkRS/wlNPE2aOP4Tn2Q35JanuP/ZCJc57F4+UWiBrO8VqBDzFcrXoWaK4JX725z4Hz0Jc1p4jwPJrf9Pp73PDLjFu3s7LHuRhHsnNOINRFYGJ0mPmnlwTD7xNFnvgj8ogX14KdsDJn5OXjcBUXitoS1icN/BKzB32ade6qQV+MkDQPdWG5b35Qtodo7EV62XvIL0NrtBtUPbJppc8i9HA2ctuLi1fYMU8P1iodDovcMNC8tAGJk7+bOwScSwXi2HjIg4WxGm4p9HT8TZ3gUHuSioBdx2jdWz5iEnMkzBDdGCc5YH1h32poWG9nO35fNouJP7Q/9eXqsU7MTvrSQ+A3d2sFjZ+nWHH3sXZR/pivgtUYvkJAJ3m3bghPXZhUrNSqeu2BaSmLJDd3tIiYSr9OiDPfP4stX16JK04BMuSLd2VPHLqrBW3TE9BgDpahC4qbrV4/rXSHhNSfbvoMjAI/Rlr0UGVIgDfKz48bc6lXEG2tqHsiuqyjK5ISKjwGfiIPmxLJ3cCJbWfPCz4uxhpKYzmIcuN/jmPebmm8i36OPslSg/tBkEqM4AepjDgkIEOXrwwmsrIUymFrbIrLp8UrZ8iNpaIvB1DGlNaY2MNGIeXEmg5ullPswim0ACJ20aGcPOEtd34KFnUWby9wVLsvEp5Q==
+    properties :
+     x : 1303
+     y : -126
+     width : 385
+     height : 303
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x2b41d144138f098f
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      procedure FEN_Initialisation()
+      
+      // Constantes
+      CONSTANTE
+      	cstPLAN_ReplicaMaitre = 1
+      	cstPLAN_ReplicaAbonne = 2
+      	cstPLAN_Transfert = 3
+      	cstPLAN_ReplicaTransportable = 4
+      FIN
+      
+      // Variables globales
+      gnEtapeCourante est un entier = 0
+      gnEtapeNombre est un entier = 4
+      
+      // Initialisation de la fenêtre
+      Initialisation()
+   -
+     code : |1-
+      // Affiche la première étape
+      EtapeSuivante()
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      // Ferme les connexions
+      HFermeConnexion(pglobales.gsNomConnexion_Portugal)
+      HFermeConnexion(pGlobales.gsNomConnexion_Espagne)
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 12
+   -
+     code : |1-
+      
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+  procedures :
+   -
+     name : Initialisation
+     procedure_id : 1964144653922086966
+     type_code : 14
+     code : |1+
+      // Résumé : Initialisation de la fenêtre
+      // Syntaxe :
+      //Initialisation ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE Initialisation()
+      
+      sListeRépertoires est une chaine
+      sRepertoire est une chaine
+      	
+      	
+      // Vérifie s'il existe des éléments d'une précédente exécution pour les supprimer
+      SI fRep(pGlobales.gsRepertoireMaitre, frRépertoire) <> "" OU fRep(pGlobales.gsRepertoireAbonne, frRépertoire) <> "" OU fRep(pGlobales.gsRepertoireTransfert, frRépertoire) <> "" ALORS
+      	// Affecte un délai avant fermeture
+      	DélaiAvantFermeture(500)
+      	// Demande confirmation à l'utilisateur
+      	SI OuiNon("Il existe des données d'une précédente exécution de l'exemple." +RC+ "Voulez-vous les supprimer ?" +RC+RC+ "Remarque : " +RC+ "La suppression des données d'une exécution précédente est fortement recommandé : l'initialisation pourrait donner des erreurs si des données existent déjà.") alors 
+      		// Fermeture du fichier client
+      		HFerme(CLIENT)
+      		// Fermeture de la connexion
+      		HFermeConnexion(pGlobales.gsConnexionCourant)
+      		// Liste les répertoires précédents : maître et abonné(s) ...
+      		sListeRépertoires = fListeRépertoire(pGlobales.gsRepertoireBase, frNonRécursif)
+      		// Supprime les répertoires listés
+      		POUR TOUTE CHAINE sRepertoire DE sListeRépertoires SEPAREE PAR RC
+      			fRepSupprime(sRepertoire, frRécursif)
+      		FIN
+      	FIN
+      	// Supprime le délai avant fermeture
+      	DélaiAvantFermeture()
+      FIN
+      
+     type : 458752
+   -
+     name : AfficheEtapeCourante
+     internal_properties : CAAAAAgAAACunwF4n3QQ8aqozcTj6Y+YsFum99KJZagN7fRg/PnI3YL5mWOTncVQVQRlBZwQjpe4iaVS2sqGeeSCf2tuCcTPskAkcRcNuLegIwH+2slCR+zxrPfw88wdb4+0I2o5KuGEiec2UR4Tql+iihF1
+     procedure_id : 1964145444196187773
+     type_code : 14
+     code : |1-
+      // Résumé : Affiche l'étape courante
+      // Syntaxe :
+      // AfficheEtapeCourante ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE AfficheEtapeCourante()
+      
+      
+      // Affiche le texte
+      _AfficheTexte()
+      
+      // Affiche le code
+      _AfficheCode()
+      
+      // Affiche l'animation
+      _AfficheAnimation()
+      
+      // S'il s'agit de la dernière étape, cache le bouton "Etape suivante"
+      si gnEtapeCourante = gnEtapeNombre ALORS
+      	BTN_EtapeSuivante..visible = faux
+      FIN
+     type : 458752
+   -
+     name : _AfficheTexte
+     internal_properties : CAAAAAgAAABSspNuNnAwBeKWHfzD7fVmUuna7jYeaOLVWiSddG+LT2OVg+UcMZ92Di+QPlAlO+GJMd7yv9O0XXbPXsjyTiSeeC1uMubAcMo5+/N0FoN5iTCyN6Z3C0RikkmRRHATqK7MQl7l3AyP1yN5aGru+NgLREtEwMRYMOCN0TyDPTvEN4v75Gb14ONeFpvKLQSG8astltc0FaQbWEF8r88JFFAegOXfK4mURGp6G9iX+NxlEU1sx5putYf1DrhHF3fDWULV
+     procedure_id : 1964147651815331740
+     type_code : 14
+     group : 3
+     code : |1-
+      // Résumé : Affiche le texte explicatif d'une étape
+      // Syntaxe :
+      //_AfficheTexte ( [<nEtape> est entier])
+      //
+      // Paramètres :
+      //	nEtape (entier) : Numéro de l'étape
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE _AfficheTexte(LOCAL nEtape est un entier = gnEtapeCourante)
+      
+      // Selon l'étape
+      SELON nEtape
+      
+      	CAS cstPLAN_ReplicaMaitre
+      		LIB_Etape = "Création des données HyperFileSQL Classic au Portugal (réplica maître)"
+      		SAI_ExplicationsEtapes = LIB_Explications_Etape_1
+      		
+      	CAS cstPLAN_ReplicaAbonne
+      		LIB_Etape = "Création des données Access de l'Espagne (réplica abonné)"
+      		SAI_ExplicationsEtapes = LIB_Explications_Etape_2
+      		
+      	CAS cstPLAN_Transfert
+      		LIB_Etape = "Insertion dans la base Access des données de la base HyperFileSQL Classic"
+      		SAI_ExplicationsEtapes = LIB_Explications_Etape_3
+      		
+      	CAS cstPLAN_ReplicaTransportable
+      		LIB_Etape = "Création répertoire de transfert pour la synchronisation des données (réplica transportable)"
+      		SAI_ExplicationsEtapes = LIB_Explications_Etape_4
+      FIN
+     type : 458752
+   -
+     name : _AfficheCode
+     procedure_id : 1964147707649919255
+     type_code : 14
+     group : 3
+     code : |1-
+      // Résumé : Affiche le code d'une étape
+      // Syntaxe :
+      //_AfficheCode ( [<nEtape> est entier])
+      //
+      // Paramètres :
+      //	nEtape (entier) : Numéro de l'étape
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE _AfficheCode(LOCAL nEtape est un entier = gnEtapeCourante)
+      
+      // Selon l'étape
+      SELON nEtape
+      
+      	CAS cstPLAN_ReplicaMaitre
+      		SAI_CodeRTF = LIB_code_Etape_1
+      		
+      	CAS cstPLAN_ReplicaAbonne
+      		SAI_CodeRTF = LIB_Code_Etape_2
+      		
+      	CAS cstPLAN_Transfert
+      		SAI_CodeRTF = LIB_Code_Etape_3
+      		
+      	CAS cstPLAN_ReplicaTransportable
+      		SAI_CodeRTF = LIB_Code_Etape_4
+      		
+      FIN
+     type : 458752
+   -
+     name : _AfficheAnimation
+     procedure_id : 1964147750599667642
+     type_code : 14
+     group : 3
+     code : |1-
+      // Résumé : Affiche l'animation d'une étape
+      // Syntaxe :
+      //_AfficheAnimation ( [<nEtape> est entier])
+      //
+      // Paramètres :
+      //	nEtape (entier) : Numéro de l'étape
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE _AfficheAnimation(LOCAL nEtape est un entier = gnEtapeCourante)
+      
+      
+      GR_ChampsAnimation..Visible = faux
+      // Selon l'étape
+      SELON nEtape
+      
+      	CAS cstPLAN_ReplicaMaitre
+      		IMG_FondAnimation = IMG_Etape1
+      		
+      	CAS cstPLAN_ReplicaAbonne
+      		IMG_FondAnimation = IMG_Etape2
+      		
+      	CAS cstPLAN_Transfert
+      		IMG_FondAnimation = IMG_Etape3
+      		
+      	CAS cstPLAN_ReplicaTransportable
+      		IMG_FondAnimation = IMG_Etape4
+      		
+      FIN
+     type : 458752
+   -
+     name : _Traitement
+     internal_properties : CAAAAAgAAAB8NzSQtYejkihs/mfwMxLjGqwO2kDgmy6Kgb6roaVWh9PfdpwEUSL3CYJmzhXc0lRTCD02vNe2p6fAhPLtbEqHSacCPWSUNZk3/sEgF+cTzk7fST6UTvANAE4FVO5Fh8GfxvbBYauRvXJFZP7JL3O2DnarOrbvl/CjhYjqG2EVYJsddvsp0m4/z9sB+Q163GYlxP3cTh/MdVsDijT9sbG5dIvNcf3CnImbkZP/L3U+4EG6f7E4gAwHiw/7mtSQMhsiRc8tD/F7HWmUxgBOaYYQVgkKSFzDZtGYKF4bxWFEVN9EkwOA/NksCcG0aLWInyrYjS8+qOqR3ZNHzv2KQcKx1laaG0LOvn9Wc/1bqPMYy2bs
+     procedure_id : 1964147857974334284
+     type_code : 14
+     group : 3
+     code : |1+
+      // Résumé : Traitement d'une étape
+      // Syntaxe :
+      //_Traitement ( [<nEtape> est entier])
+      //
+      // Paramètres :
+      //	nEtape (entier) : Etape dont le traitement doit être effectué
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE _Traitement(LOCAL nEtape est un entier = gnEtapeCourante)
+      
+      sRéplicaMaitre est une chaîne
+      sRéplicaTRansportable est une chaîne
+      
+      // Selon l'étape
+      SELON nEtape
+      
+      	CAS cstPLAN_ReplicaMaitre
+      		// Création du répertoire d'accueil des données
+      		fRepCrée(pGlobales.gsRepertoireMaitre)
+      		
+      		// Connexion à cet emplacement pour créer la base HyperFileSQL
+      		HOuvreConnexion(pGlobales.gsNomConnexion_Portugal)
+      		HChangeConnexion(CLIENT, pGlobales.gsNomConnexion_Portugal)
+      		
+      		// Création du fichier de données et insertion d'enregistrements
+      		HCréation(CLIENT)
+      		CLIENT.NOM = "BERNARD"
+      		CLIENT.INFOCLIENT = "Ce Client a été saisi initialement au Portugal"
+      		CLIENT.IDDATEHEURE = DateSys()+HeureSys()
+      		HAjoute(CLIENT)
+      		
+      		Multitâche(100)
+      		CLIENT.NOM = "CONSTANTIN"
+      		CLIENT.INFOCLIENT = "Ce Client a été saisi initialement au Portugal"
+      		CLIENT.IDDATEHEURE = DateSys()+HeureSys()
+      		HAjoute(CLIENT)
+      		
+      		// Création du réplica maitre avec ces données
+      		SI HCréeRéplicaMaître(pGlobales.gsRepertoireMaitre+["\"]+cstNomReplicaMaitre) = faux ALORS 
+      			FinProgramme("Echec de création du réplica maître." +RC+ hErreurInfo(herrmessage))
+      		FIN
+      		
+      	CAS cstPLAN_ReplicaAbonne
+      		
+      		// Création du répertoire d'accueil des données
+      		fRepCrée(pGlobales.gsRepertoireAbonne)
+      		
+      		// Création du réplica abonné pour le site
+      		SI HCréeRéplicaAbonné(pGlobales.gsRepertoireMaitre, pGlobales.gsRepertoireAbonne, "ESPAGNE", 0, "CLIENT" +TAB+ "IDDATEHEURE") = faux ALORS
+      			FinProgramme("Echec de création du réplica abonné." +RC+ hErreurInfo(herrmessage))
+      		FIN
+      		
+      	CAS cstPLAN_Transfert
+      		
+      		// Transfert de la base HyperFileSQL dans la Base ACCESS (première synchronisation)
+      		// Ensuite il sera possible de placer la base Access en production
+      		// avec ces fichiers de réplication
+      		sRéplicaMaitre = pGlobales.gsRepertoireMaitre +["\"]+ cstNomReplicaMaitre
+      		
+      		// Ouverture d'une connexion sur la base HyperFileSQL (Portugal)
+      		OuvreUneConnexion("PORTUGAL")
+      		
+      		// Création du réplica transportable avec contenu initial de la base HyperFileSQL
+      		HCréeRéplicaTransportable(sRéplicaMaitre, "ESPAGNE", "")
+      		
+      		// Ouverture d'une connexion sur la base Access Espagne
+      		OuvreUneConnexion("ESPAGNE")
+      		sRéplicaTRansportable = pGlobales.gsRepertoireMaitre + RPL.Fichier
+      		
+      		// Création du fichier de données  : la base Access
+      		HCréation(CLIENT)
+      		
+      		// Synchronisation du réplica avec la base Access pour que le données du maître soit présentes dans l'abonné
+      		HSynchroniseRéplica(sRéplicaTRansportable, pGlobales.gsRepertoireAbonne +["\"]+ cstNomReplicaAbonnePrincipal, rplVersAbonné)
+      		
+      		// Il faut effectuer une synchronisation de l'abonné vers le maître également
+      		// Le maître sera ainsi "informé" que la synchronisation initiale a bien été faite
+      		HCréeRéplicaTransportable(pGlobales.gsRepertoireAbonne +["\"]+ cstNomReplicaAbonnePrincipal, "ESPAGNE", "")
+      		sRéplicaTRansportable = pGlobales.gsRepertoireTransfert +["\"]+ RPL.Fichier 
+      		fCopieFichier(pGlobales.gsRepertoireAbonne +["\"]+ RPL.Fichier, sRéplicaTRansportable)
+      		
+      		// Connexion à la base maître afin de synchroniser ce nouveau réplica abonné...
+      		OuvreUneConnexion("PORTUGAL")		
+      		HSynchroniseRéplica(pGlobales.gsRepertoireMaitre +["\"]+ cstNomReplicaMaitre, sRéplicaTRansportable, rplVersMaître)
+      		
+      	Cas cstPLAN_ReplicaTransportable
+      		
+      		// Création du répertoire pour stocker les réplicas transportables
+      		fRepCrée(pGlobales.gsRepertoireTransfert)
+      		
+      FIN
+     type : 458752
+   -
+     name : EtapeSuivante
+     procedure_id : 1964442213556867771
+     type_code : 14
+     code : |1-
+      // Résumé : passe à l'étape suivante
+      // Syntaxe :
+      //EtapeSuivante ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE EtapeSuivante()
+      
+      // Traitement de l'étape courante
+      _Traitement()
+      
+      // Incrémente l'étape courante
+      gnEtapeCourante++
+      
+      // Affiche l'étape
+      AfficheEtapeCourante()
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAAspXRQsX4kpYpRJzI8SMGEUfXYJhQeqig0H9mPZLI9hoPnkeFEnSQ8t7JVd8VUY9eLyST/2DyAYB+9rK7lbHVOclfSdkhgAQ9dNjlmStKMpPl9
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1fc796eb18849b05
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

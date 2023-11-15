@@ -1,0 +1,130 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD Réplication Universelle
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : Projet de démonstration de réplication hétérogène
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : WD Réplication Universelle
+    internal_properties : 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
+    configuration_id : 4732910921372575509
+    type : 1
+    generation_name : WD Réplication Universelle.exe
+    version :
+     major_version : 21
+     internal_generation_version : 3
+     autoincrement_version : false
+    icon_filename : .\icone.ico
+    language : 1
+    new_features_help :
+     name : ""
+     internal_properties : CAAAAAgAAAAiSuoWq26x9nSZ6tVtHFt8vCSF/tCP8XJ0Kj0siiXURgfCQaGdV1uN8h7nsBTP5yFClH4N97C1q+1H
+ elements :
+  identifier : 0x4b30d3f8003fbfd6
+  elements :
+   -
+     name : FEN_VoirVariable
+     identifier : 0x425305aa00019c8e
+     internal_properties : CAAAAAgAAAAJBXEVks9nCNdsPWZ6nbjPO14KEqaiQQW+dajupYqIsEzgtSXwCEsvcKoU7LQs1MQMFA==
+     physical_name : .\FEN_VoirVariable.wdw
+     type : 2
+   -
+     name : FEN_Table_Client
+     identifier : 0x4b4361d800114e17
+     internal_properties : CAAAAAgAAADAvjhkQzhwq7QNXjtfQ1favu2lva1ZgwRWowiOW6ToaOhqyREbJW7Q0Uu1A4N9BfvFTQ==
+     physical_name : .\FEN_Table_CLIENT.wdw
+     type : 2
+   -
+     name : TEST_Principale
+     identifier : 0x4b73cb53001258da
+     internal_properties : CAAAAAgAAAAnIw8TkM1lBtFqF3xgPRIlAUDYQHCUwZ6Ws3QihbrYADjIkclS7jUZbqgS7rYq1soyMg==
+     physical_name : .\TEST_Principale.wxt
+     type : 17
+   -
+     name : pGlobales
+     identifier : 0x4251af0e00004aff
+     internal_properties : CAAAAAgAAAC9mZWJNmNLVGOIyRJGbEgvX9hqCrBcZ5Oy2H3RimWxf71zpiT0DFc7TPbg2FiIcGCoqA==
+     physical_name : .\pGlobales.wdg
+     type : 7
+   -
+     name : FEN_Initialisation
+     identifier : 0x4b30e78000100c42
+     internal_properties : CAAAAAgAAADNSSV5RjN7pLMYWQJWnUQrV9qWDtJWhXq2N4gWvWKoSMxwpTXkHGfL3EawCIh4APDYWA==
+     physical_name : .\FEN_Initialisation.wdw
+     type : 2
+   -
+     name : FEN_Principale
+     identifier : 0x4848e4bc0000ff99
+     internal_properties : CAAAAAgAAAAtKQUZppObRBO4eSK2fmRDT3zKwu35Z6NOD9XPCR9/WeMNxBYEPIfrPObQKOgY4NA4OA==
+     physical_name : .\FEN_Principale.wdw
+     type : 2
+   -
+     name : FEN_SélectionPays
+     identifier : 0x48c12c0f00012dc6
+     internal_properties : CAAAAAgAAACsqoSQL1Tcj1jRYi+zrI+COrvxqRQpLQpOB+RA9wELLS/XAGq3QYLkJR+ZZy+hWU+5uQ==
+     physical_name : .\FEN_SelectionPays.wdw
+     type : 2
+  other_elements : []
+  analysis : .\WD Réplication Universelle.ana\WD Réplication Universelle.wda
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ common_generation_directory : true
+ languages :
+  - fr-FR
+ wd_style_sheet : ".\\WD Réplication Universelle.sty\r\n.\\RPH.sty"
+ code_elements :
+  internal_properties : CAAAAAgAAAC/qgOJs7oNYYBf3DN8NWpjTsFI9kd7+VCkWpmy1HUmTgpRv12hoSuqIx6js++nv9W6Hzh58iMgjgo2P0JdYJLmdfgYUGY24ha6e4By4nLiPxWS9eqNmFc2atznpOubO0irEWIPHQXoFntr7iUEY0l1ZVms4EoJjHwerYONsipQpx0Apfw0fiiWGMtpdg==
+  type_code : 0
+  p_codes :
+   -
+     code : |1-
+      
+     type : 196608
+   -
+     code : |1-
+      
+     type : 196610
+   -
+     code : |1-
+      
+     type : 196619
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WD Réplication Universelle
+     identifier : 0x4b30d3f80047c063
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : RPH
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : "Afghanistan \r\nAfrique du Sud \r\nAlbanie \r\nAlgérie \r\nAllemagne \r\nAndorre \r\nAngola \r\nAntigua-et-Barbuda \r\nArabie saoudite \r\nArgentine \r\nArménie \r\nAustralie \r\nAutriche \r\nAzerbaïdjan \r\nBahamas \r\nBahreïn \r\nBangladesh \r\nBarbade \r\nBelau\r\nBelgique \r\nBelize \r\nBénin \r\nBhoutan \r\nBiélorussie \r\nBirmanie \r\nBolivie \r\nBosnie-Herzégovine \r\nBotswana \r\nBrésil \r\nBrunei \r\nBulgarie \r\nBurkina \r\nBurundi \r\nCambodge \r\nCameroun \r\nCanada \r\nCap-Vert \r\nChili \r\nChine \r\nChypre \r\nColombie \r\nComores \r\nCongo \r\nCongo \r\nCook \r\nCorée du Nord \r\nCorée du Sud \r\nCosta Rica \r\nCôte d'Ivoire \r\nCroatie \r\nCuba \r\nDanemark \r\nDjibouti \r\nDominique \r\nÉgypte \r\nÉmirats arabes unis \r\nÉquateur \r\nÉrythrée \r\nEstonie \r\nÉtats-Unis \r\nÉthiopie \r\nFidji \r\nFinlande \r\nFrance \r\nGabon \r\nGambie \r\nGéorgie \r\nGhana \r\nGrèce \r\nGrenade \r\nGuatemala \r\nGuinée \r\nGuinée-Bissao \r\nGuinée équatoriale \r\nGuyana \r\nHaïti \r\nHonduras \r\nHongrie \r\nInde \r\nIndonésie \r\nIran \r\nIraq \r\nIrlande \r\nIslande \r\nIsraël \r\nItalie \r\nJamaïque \r\nJapon \r\nJordanie \r\nKazakhstan \r\nKenya \r\nKirghizistan \r\nKiribati \r\nKoweït \r\nLaos \r\nLesotho \r\nLettonie \r\nLiban \r\nLiberia \r\nLibye \r\nLiechtenstein \r\nLituanie \r\nLuxembourg \r\nMacédoine \r\nMadagascar \r\nMalaisie \r\nMalawi \r\nMaldives \r\nMali \r\nMalte \r\nMaroc \r\nMarshall \r\nMaurice \r\nMauritanie \r\nMexique \r\nMicronésie \r\nMoldavie \r\nMonaco \r\nMongolie \r\nMozambique \r\nNamibie \r\nNauru \r\nNépal \r\nNicaragua \r\nNiger \r\nNigeria \r\nNiue\r\nNorvège \r\nNouvelle-Zélande \r\nOman \r\nOuganda \r\nOuzbékistan \r\nPakistan \r\nPanama \r\nPapouasie - Nouvelle Guinée \r\nParaguay \r\nPays-Bas \r\nPérou \r\nPhilippines \r\nPologne \r\nQatar \r\nRépublique centrafricaine \r\nRépublique dominicaine \r\nRépublique tchèque \r\nRoumanie \r\nRoyaume-Uni \r\nRussie \r\nRwanda \r\nSaint-Christophe-et-Niévès \r\nSainte-Lucie\r\nSaint-Marin\r\nSaint-Siège \r\nSaint-Vincent-et-les Grenadines\r\nSalomon \r\nSalvador \r\nSamoa occidentales \r\nSao Tomé-et-Principe \r\nSénégal \r\nSeychelles \r\nSierra Leone \r\nSingapour \r\nSlovaquie \r\nSlovénie \r\nSomalie \r\nSoudan \r\nSri Lanka \r\nSuède \r\nSuisse \r\nSuriname \r\nSwaziland \r\nSyrie \r\nTadjikistan \r\nTanzanie \r\nTchad \r\nThaïlande \r\nTogo \r\nTonga \r\nTrinité-et-Tobago \r\nTunisie \r\nTurkménistan \r\nTurquie \r\nTuvalu \r\nUkraine \r\nUruguay \r\nVanuatu\r\nVenezuela \r\nViêt Nam \r\nYémen \r\nYougoslavie \r\nZaïre \r\nZambie \r\nZimbabwe"
+     index : 0
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==
